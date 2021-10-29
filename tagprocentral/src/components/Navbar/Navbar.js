@@ -9,7 +9,7 @@ const Navbar = () => {
           <h1 id="logo">Tagpro Central</h1>
           <ul>
             <li>
-              <a href="#MLTP">MLsTP</a>
+              <a href="#MLTP">MLTP</a>
             </li>
             <li>
               <a href="#NLTP">NLTP</a>
