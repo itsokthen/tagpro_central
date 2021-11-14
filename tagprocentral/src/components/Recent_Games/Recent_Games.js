@@ -15,17 +15,16 @@ const rows = [createData("RNK", 12, 8), createData("HGW", 4, 4)];
 
 export default function DenseTable() {
   return (
-    <TableContainer component={Paper}>
-      <Table
-        sx={{
-          [`& .${tableCellClasses.root}`]: {
-            borderBottom: "none",
-          },
-        }}
-        sx={{ maxWidth: 150 }}
-        size="small"
-        aria-label="a dense table"
-      >
+    <TableContainer
+      sx={{
+        [`& .${tableCellClasses.root}`]: {
+          borderBottom: "none",
+        },
+        maxWidth: 160,
+      }}
+      component={Paper}
+    >
+      <Table sx={{ maxWidth: 150 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell>Final</TableCell>
