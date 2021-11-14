@@ -4,7 +4,7 @@ import FlagIcon from "@mui/icons-material/Flag";
 
 const Navbar = () => {
   return (
-    <AppBar color="primary">
+    <AppBar color="primary" style={{ position: "relative" }}>
       <Toolbar>
         <FlagIcon />
         <Tabs>
