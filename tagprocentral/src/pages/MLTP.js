@@ -1,13 +1,13 @@
 import React from "react";
 //Page Components
 import Navbar from "../components/Navbar/Navbar";
-import Recent_Games from "../components/Recent_Games/Recent_Games";
+import Scoreboard from "../components/Scoreboard/Scoreboard";
 
 const MLTP = () => {
   return (
     <div>
       <Navbar />
-      <Recent_Games />
+      <Scoreboard />
     </div>
   );
 };
