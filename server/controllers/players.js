@@ -9,6 +9,15 @@ export const getPlayers = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
-export const createPlayers = (req, res) => {
-  res.send("router is working");
+export const createPlayers = async (req, res) => {
+  const player = req.body;
+
+  const newPlayer = new players(players);
+
+  try {
+    await newPlayer.save();
+    res.staus(201).json(newPlayer);
+  } catch (error) {
+    res.status(409).json({ message: error.message });
+  }
 };

@@ -1,7 +1,9 @@
 import { lightBlue } from "@material-ui/core/colors";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import Pages
 import MLTP from "./pages/MLTP";
+import Admin from "./pages/admin";
 
 const themes = createTheme({
   palette: {
@@ -16,9 +18,18 @@ const themes = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={themes}>
-      <MLTP />
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider theme={themes}>
+        <Switch>
+          <Route exact path="/">
+            <MLTP />
+          </Route>
+          <Route path="/admin">
+            <Admin />
+          </Route>
+        </Switch>
+      </ThemeProvider>
+    </Router>
   );
 }
 
