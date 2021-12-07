@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     borderStyle: "solid",
   },
   scoreCarousel: {
-    width: "80%",
+    width: "100%",
     margin: "auto",
     overflow: "auto",
   },

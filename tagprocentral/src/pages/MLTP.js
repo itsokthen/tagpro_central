@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Scoreboard from "../components/Scoreboard/Scoreboard";
 import Standings from "../components/Standings/Standings";
+import Sidebar from "../components/Sidebar/Sidebar";
 
 const MLTP = () => {
   return (
@@ -10,6 +11,7 @@ const MLTP = () => {
       <Navbar />
       <Scoreboard />
       <Standings />
+      <Sidebar />
     </div>
   );
 };
