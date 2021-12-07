@@ -8,9 +8,6 @@ import Sidebar from "../components/Sidebar/Sidebar";
 const MLTP = () => {
   return (
     <div>
-      <Navbar />
-      <Scoreboard />
-      <Standings />
       <Sidebar />
     </div>
   );
