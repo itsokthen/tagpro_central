@@ -34,18 +34,18 @@ export default function Standings() {
   }, []);
 
   return (
-    <TableContainer component={Paper} sx={({ maxWidth: 700 }, {})}>
-      <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+    <TableContainer  sx={({ maxWidth: 700 }, {})}>
+      <Table sx={{ maxWidth: 650 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell>#</TableCell>
-            <TableCell align="left">Team</TableCell>
-            <TableCell align="left">Points</TableCell>
-            <TableCell align="left">Wins</TableCell>
-            <TableCell align="left">OTW</TableCell>
-            <TableCell align="left">OTL</TableCell>
-            <TableCell align="left">Losses</TableCell>
-            <TableCell align="left">+/-</TableCell>
+            <TableCell align="center">Team</TableCell>
+            <TableCell align="center">Points</TableCell>
+            <TableCell align="center">Wins</TableCell>
+            <TableCell align="center">OTW</TableCell>
+            <TableCell align="center">OTL</TableCell>
+            <TableCell align="center">Losses</TableCell>
+            <TableCell align="center">+/-</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -57,13 +57,13 @@ export default function Standings() {
               <TableCell component="th" scope="row">
                 {row.rank}
               </TableCell>
-              <TableCell align="left">{row.name}</TableCell>
-              <TableCell align="left">{row.points}</TableCell>
-              <TableCell align="left">{row.wins}</TableCell>
-              <TableCell align="left">{row.otw}</TableCell>
-              <TableCell align="left">{row.otl}</TableCell>
-              <TableCell align="left">{row.losses}</TableCell>
-              <TableCell align="left">{row.plusminus}</TableCell>
+              <TableCell align="center">{row.name}</TableCell>
+              <TableCell align="center">{row.points}</TableCell>
+              <TableCell align="center">{row.wins}</TableCell>
+              <TableCell align="center">{row.otw}</TableCell>
+              <TableCell align="center">{row.otl}</TableCell>
+              <TableCell align="center">{row.losses}</TableCell>
+              <TableCell align="center">{row.plusminus}</TableCell>
             </TableRow>
           ))}
         </TableBody>

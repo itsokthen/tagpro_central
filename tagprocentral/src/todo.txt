@@ -1,0 +1,22 @@
+Score carosel needs to be finished
+Place leaders and upcoming games beside the standings
+Highlight leaders in each category in the leaders tab
+Get a grid, format boxes
+
+
+Get in all stats
+Rosters page, historical
+Standings page, historical, superball winner, awards page historical
+Ideally historical schedule
+
+
+
+Profile Pages
+
+
+
+
+Extras:
+Odds maker on upcoming games, able to bet on the games
+    Built in odds calculator based on standings and +/-
+
