@@ -1,34 +1,38 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box"
+import styled from "styled-components";
 import { Paper } from "@mui/material";
-import { experimentalStyled as styled } from "@mui/material";
 //Page Components
-import Navbar from "../components/Navbar/Navbar";
-import Scoreboard from "../components/Scoreboard/Scoreboard";
-import Standings from "../components/Standings/Standings";
-<<<<<<< HEAD
-import Sidebar from "../components/Sidebar/Sidebar";
-=======
-import Leaders from "../components/Leaders/Leaders";
-import NextGame from "../components/Upcoming/NextGame";
-import NextGameBox from "../components/Upcoming/NextGameBox";
-import { textAlign } from "@mui/system";
 
-const Item = styled(Paper)(({theme}) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(2),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}))
->>>>>>> c37487b (changes)
+import Sidebar from "../components/Sidebar/Sidebar";
 
 const MLTP = () => {
   return (
-    <div>
-      <Sidebar />
-    </div>
+    <Page>
+      <Nav>
+        <h1>hi</h1>
+      </Nav>
+      <Nav>
+        <h1>hi</h1>
+      </Nav>
+    </Page>
   );
 };
+
+//Styled components
+const Nav = styled.div`
+  height: 10vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: lightblue;
+`
+const Page = styled.div`
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+`
+
+
 
 export default MLTP;
