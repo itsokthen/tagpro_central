@@ -1,38 +1,23 @@
 import React from "react";
 import styled from "styled-components";
-import { Paper } from "@mui/material";
-//Page Components
 
-import Sidebar from "../components/Sidebar/Sidebar";
+//Page Components
+import NewNavbar from "../components/Navbar/NewNavbar";
 
 const MLTP = () => {
   return (
-    <Page>
-      <Nav>
-        <h1>hi</h1>
-      </Nav>
-      <Nav>
-        <h1>hi</h1>
-      </Nav>
-    </Page>
+    <div>
+      <NewNavbar />
+      <Body>
+      <h1>A</h1><h1>B</h1><h1>C</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1><h1>MLTP</h1>
+      </Body>
+    </div>
   );
 };
 
-//Styled components
-const Nav = styled.div`
-  height: 10vh;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  box-sizing: border-box;
-  background-color: lightblue;
+const Body = styled.div`
+  margin-top: 7vh;
 `
-const Page = styled.div`
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-`
-
 
 
 export default MLTP;
