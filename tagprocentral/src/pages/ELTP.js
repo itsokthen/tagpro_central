@@ -1,16 +1,22 @@
 import React from "react";
+import styled from "styled-components";
 
 //Page Components
-import NewNavbar from "../components/Navbar/NewNavbar";
+import Navbar from "../components/Navbar/Navbar";
 
 const MLTP = () => {
   return (
-      <div>
-        <NewNavbar />
+    <div>
+      <Navbar />
+      <Body>
         <h1>ELTP</h1>
+      </Body>
     </div>
   );
 };
 
+const Body = styled.div`
+  margin-top: 60px;
+`;
 
 export default MLTP;
