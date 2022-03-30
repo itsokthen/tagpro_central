@@ -1,72 +1,68 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
-import CssBaseline from "@mui/material/CssBaseline";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import List from "@mui/material/List";
-import Typography from "@mui/material/Typography";
+import React, { Component } from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+
+import tpmlogo from "./tpmlogo.png";
+
+//External Imports
 import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 
-import Navbar from "../Navbar/Navbar";
-import Scoreboard from "../Scoreboard/Scoreboard";
-import Standings from "../Standings/Standings";
-
-const drawerWidth = 220;
-
-export default function PermanentDrawerLeft() {
-  return (
-    <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <Drawer
-        sx={{
-          width: drawerWidth,
-          flexShrink: 0,
-          "& .MuiDrawer-paper": {
-            width: drawerWidth,
-            boxSizing: "border-box",
-          },
-        }}
-        variant="permanent"
-        anchor="left"
-      >
-        <Toolbar />
+class Sidebar extends Component {
+  render() {
+    return (
+      <SidebarStyle>
+        <Logo>
+          <Link to="/" exact>
+            TagproCentral
+          </Link>
+        </Logo>
         <Divider />
-        <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
-        <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
-      >
-        <Navbar />
-        <Scoreboard />
-        <Standings />
-      </Box>
-    </Box>
-  );
+      </SidebarStyle>
+    );
+  }
 }
+
+const SidebarStyle = styled.div`
+  position: fixed;
+  min-width: 300px;
+  border-right: 1px solid #e1e1e1;
+  background: white;
+  height: 100%;
+  top: 0;
+`;
+
+const Logo = styled.h3`
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  color: white;
+  background-color: black;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+`;
+
+// const Tpmdiv = styled.button`
+//   border: none;
+//   background: transparent;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-wrap: wrap;
+//   padding: 10px;
+// `;
+
+// const Tpmlogostyled = styled.img`
+//   background-color: black;
+//   width: 150px;
+//   height: auto;
+// `;
+
+export default Sidebar;

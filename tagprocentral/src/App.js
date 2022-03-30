@@ -13,6 +13,24 @@ import Admin from "./pages/admin";
 import League from "./pages/League";
 
 function App() {
+  const LeagueInfo = {
+    MLTP: {
+      league: "MLTP",
+      color: "#3498db",
+    },
+    NLTP: {
+      league: "NLTP",
+      color: "#e67e22",
+    },
+    ELTP: {
+      league: "ELTP",
+      color: "#c0392b",
+    },
+    OLTP: {
+      league: "OLTP",
+      color: "#27ae60",
+    },
+  };
   const MLTP = {
     league: "MLTP",
     color: "#3498db",
@@ -21,27 +39,35 @@ function App() {
     league: "NLTP",
     color: "#e67e22",
   };
+  const ELTP = {
+    league: "ELTP",
+    color: "#c0392b",
+  };
+  const OLTP = {
+    league: "OLTP",
+    color: "#27ae60",
+  };
   return (
     <Router>
       <GlobalStyle />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home info={LeagueInfo} />
         </Route>
         <Route path="/admin">
           <Admin />
         </Route>
         <Route path="/MLTP">
-          <League name={MLTP} />
+          <League info={LeagueInfo} league="MLTP" />
         </Route>
         <Route path="/NLTP">
-          <League name={NLTP} />
+          <League info={LeagueInfo} league="NLTP" />
         </Route>
         <Route path="/ELTP">
-          <ELTP />
+          <League info={LeagueInfo} league="ELTP" />
         </Route>
         <Route path="/OLTP">
-          <OLTP />
+          <League info={LeagueInfo} league="OLTP" />
         </Route>
       </Switch>
     </Router>

@@ -2,68 +2,143 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+//External Imports
+import Divider from "@mui/material/Divider";
+
 const Navbar = () => {
   return (
-    <Nav>
-      <Logo>
-        <Link to="/">TagproCentral</Link>
-      </Logo>
-      <ul>
-        <li>
-          <Link to="MLTP">MLTP</Link>
-        </li>
-        <li>
-          <Link to="NLTP">NLTP</Link>
-        </li>
-        <li>
-          <Link to="ELTP">ELTP</Link>
-        </li>
-        <li>
-          <Link to="OLTP">OLTP</Link>
-        </li>
-        <li>
-          <Link to="/">OTHER</Link>
-        </li>
-        <li>
-          <Link to="/">OTHER</Link>
-        </li>
-      </ul>
-    </Nav>
+    <div>
+      <Nav>
+        <ul>
+          <MLTP>
+            <Link to="MLTP">MLTP</Link>
+          </MLTP>
+          <NLTP>
+            <Link to="NLTP">NLTP</Link>
+          </NLTP>
+
+          <Link to="ELTP">
+            <ELTP>ELTP</ELTP>
+          </Link>
+
+          <OLTP>
+            <Link to="OLTP">OLTP</Link>
+          </OLTP>
+          <OTHER>
+            <Link to="/">M</Link>
+          </OTHER>
+          <OTHER>
+            <Link to="/">M</Link>
+          </OTHER>
+          <NewButton>
+            <Link to="/"></Link>
+          </NewButton>
+        </ul>
+      </Nav>
+    </div>
   );
 };
 
 //Styled components
+
+const NewButton = styled.button`
+  border: none;
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+`;
 const Nav = styled.div`
   min-height: 60px;
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-bottom: 1px solid #e1e1e1;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background-color: black;
 
-  a {
+  a{
     text-decoration: none;
-    color: white;
+    color:black;
+  }
+
   }
   ul {
     display: flex;
     justify-content: space-around;
-    padding-left: 30vw;
+    align-items: center;
+    padding-left: 45vw;
     list-style: none;
   }
   li {
-    margin-right: 30px;
     position: relative;
   }
 `;
-const Logo = styled.h3`
-  font-size: 1.2rem;
-  font-style: italic;
-  padding: 0 0 0 15rem;
+
+const MLTP = styled.li`
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3498db;
+  background-color: #3498db;
+  &:hover {
+    border 2px solid white;
+  }
+`;
+
+const NLTP = styled.li`
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e67e22;
+  &:hover {
+    border 2px solid white;
+  }
+`;
+const ELTP = styled.li`
+  height: 50px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c0392b;
+  &:hover {
+    border 2px solid white;
+    background-color: #c0392b;
+    color: white;
+  }
+`;
+const OLTP = styled.li`
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #27ae60;
+  &:hover {
+    border 2px solid white;
+  }
+`;
+const OTHER = styled.li`
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9347c9;
+  &:hover {
+    border 2px solid white;
+  }
 `;
 
 export default Navbar;
