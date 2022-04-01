@@ -1,13 +1,7 @@
-import { lightBlue } from "@material-ui/core/colors";
-import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyle from "./components/GlobalStyle";
 // Import Pages
 import Home from "./pages/Home";
-import MLTP from "./pages/MLTP";
-import NLTP from "./pages/NLTP";
-import ELTP from "./pages/ELTP";
-import OLTP from "./pages/OLTP";
 
 import Admin from "./pages/admin";
 import League from "./pages/League";
@@ -30,29 +24,17 @@ function App() {
       league: "OLTP",
       color: "#27ae60",
     },
-  };
-  const MLTP = {
-    league: "MLTP",
-    color: "#3498db",
-  };
-  const NLTP = {
-    league: "NLTP",
-    color: "#e67e22",
-  };
-  const ELTP = {
-    league: "ELTP",
-    color: "#c0392b",
-  };
-  const OLTP = {
-    league: "OLTP",
-    color: "#27ae60",
+    OTHER: {
+      league: "OTHER",
+      color: "#9347c9",
+    },
   };
   return (
     <Router>
       <GlobalStyle />
       <Switch>
         <Route exact path="/">
-          <Home info={LeagueInfo} />
+          <Home info={LeagueInfo} league="OTHER" />
         </Route>
         <Route path="/admin">
           <Admin />

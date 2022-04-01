@@ -9,19 +9,30 @@ import PageContent from "../components/PageContent";
 const Home = (props) => {
   return (
     <div>
-      <Navbar />
-      <Sidebar league={props} />
-      <PageStyle>
-        <PageContent league={props} />
+      <PageStyle color={props.info[props.league].color}>
+        <div>
+          <Sidebar test={props} color={props.info[props.league].color} />
+        </div>
+        <PageContentStyle>
+          <Navbar />
+          <PageContent test={props} color={props.info[props.league].color} />
+        </PageContentStyle>
       </PageStyle>
     </div>
   );
 };
 
 const PageStyle = styled.div`
-  height: calc(100vh - 60px);
   display: flex;
-  background-color: lightblue;
+  background-color: ${(props) => props.color};
+`;
+
+const PageContentStyle = styled.div`
+  background-color: yellow;
+  display: flex;
+  width: 100%;
+  margin-left: 300px;
+  min-height: 100vh;
 `;
 
 export default Home;

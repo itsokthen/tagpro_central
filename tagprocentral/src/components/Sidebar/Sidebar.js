@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import tpmlogo from "./tpmlogo.png";
+import tpmlogo from "../images/tpmlogo.png";
 
 //External Imports
 import Divider from "@mui/material/Divider";
@@ -12,11 +12,20 @@ class Sidebar extends Component {
     return (
       <SidebarStyle>
         <Logo>
-          <Link to="/" exact>
+          <LogoLink color={this.props.color} to="/">
             TagproCentral
-          </Link>
+          </LogoLink>
         </Logo>
+
         <Divider />
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
+        <h1>hi</h1>
       </SidebarStyle>
     );
   }
@@ -45,8 +54,12 @@ const Logo = styled.h3`
 
   a {
     text-decoration: none;
-    color: white;
+    color: ${(props) => props.color};
   }
+`;
+
+const LogoLink = styled(Link)`
+  color: ${(props) => props.color};
 `;
 
 // const Tpmdiv = styled.button`

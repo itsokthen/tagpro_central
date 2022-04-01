@@ -5,28 +5,25 @@ import { Link } from "react-router-dom";
 //External Imports
 
 const Navbar = (props) => {
-  console.log();
+  console.log(props.color.color);
   return (
     <div>
-      <Nav>
+      <Nav color={props.color.color}>
         <ul>
           <Link to="MLTP">
-            <NavStyle color="#3498db">MLTP</NavStyle>
+            <NavStyle color={props.color.color}>Scores</NavStyle>
           </Link>
           <Link to="NLTP">
-            <NavStyle color="#e67e22">NLTP</NavStyle>
+            <NavStyle color={props.color.color}>Schedule</NavStyle>
           </Link>
           <Link to="ELTP">
-            <NavStyle color="#c0392b">ELTP</NavStyle>
+            <NavStyle color={props.color.color}>Standings</NavStyle>
           </Link>
           <Link to="OLTP">
-            <NavStyle color="#27ae60">OLTP</NavStyle>
+            <NavStyle color={props.color.color}>Stats</NavStyle>
           </Link>
           <Link to="/">
-            <NavStyle color="#9347c9">OTHER</NavStyle>
-          </Link>
-          <Link to="/">
-            <NavStyle color="#9347c9">M</NavStyle>
+            <NavStyle color={props.color.color}>Teams</NavStyle>
           </Link>
         </ul>
       </Nav>
@@ -37,17 +34,17 @@ const Navbar = (props) => {
 //Styled components
 
 const Nav = styled.div`
-  min-height: 60px;
+  min-height: 40px;
   display: flex;
+  justify-content: left;
   align-items: center;
   overflow: hidden;
-  position: fixed;
-  top: 0;
   width: 100%;
   border-bottom: 1px solid #e1e1e1;
+  box-shadow: 0px 5px 5px -5px #111;
   font-weight: 700;
   font-size: 1.1rem;
-  background-color: black;
+  background-color: ${(props) => props.color};
 
   a{
     text-decoration: none;
@@ -59,7 +56,6 @@ const Nav = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 25px;
     list-style: none;
   }
   li {
@@ -68,16 +64,19 @@ const Nav = styled.div`
 `;
 
 const NavStyle = styled.li`
-  height: 60px;
-  width: 70px;
+  height: 40px;
+  width: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${(props) => props.color};
+  
+    
+}
+  background-color: ${(props) => props.color};
+    color: white;
   &:hover {
     border 2px solid white;
-    background-color: ${(props) => props.color};
-    color: white;
+
   }
 `;
 

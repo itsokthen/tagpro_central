@@ -10,9 +10,13 @@ const League = (props) => {
   return (
     <div>
       <PageStyle color={props.info[props.league].color}>
-        <Navbar />
-        <Sidebar test={props} />
-        <PageContent test={props} />
+        <div>
+          <Sidebar test={props} color={props.info[props.league].color} />
+        </div>
+        <PageContentStyle>
+          <Navbar />
+          <PageContent test={props} color={props.info[props.league].color} />
+        </PageContentStyle>
       </PageStyle>
     </div>
   );
@@ -21,7 +25,14 @@ const League = (props) => {
 const PageStyle = styled.div`
   display: flex;
   background-color: ${(props) => props.color};
-  top: 0;
+`;
+
+const PageContentStyle = styled.div`
+  background-color: yellow;
+  display: flex;
+  width: 100%;
+  margin-left: 300px;
+  min-height: 100vh;
 `;
 
 export default League;
