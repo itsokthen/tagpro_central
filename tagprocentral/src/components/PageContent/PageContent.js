@@ -24,12 +24,6 @@ const PageContent = (props) => {
           <Route path={`${path}/Stats`} component={Stats} />
           <Route path={`${path}/Teams`} component={Teams} />
         </Switch>
-        <h1>Scoreboard: Game 1 Game 2 Game 3</h1>
-        <h1>League Leaders</h1>
-        <h3>Caps: okthen koolaid inthesomeday</h3>
-        <h3>Caps: okthen koolaid inthesomeday</h3>
-        <h3>Caps: okthen koolaid inthesomeday</h3>
-        <Scores />
       </div>
     </PageDetails>
   );
@@ -39,13 +33,12 @@ const PageDetails = styled.div`
   width: 100%;
   margin-top: 61px;
   margin-bottom: 15px;
-  background-color: white;
+  background-color: #edeef0;
 `;
 
 const NestedNavStyle = styled.div`
   width: 100%;
   margin-bottom: 15px;
-  background-color: lightblue;
 `;
 
 export default PageContent;

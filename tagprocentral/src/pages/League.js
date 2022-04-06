@@ -28,7 +28,6 @@ const PageStyle = styled.div`
 `;
 
 const PageContentStyle = styled.div`
-  background-color: yellow;
   display: flex;
   width: 100%;
   margin-left: 300px;
