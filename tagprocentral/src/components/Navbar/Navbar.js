@@ -10,16 +10,16 @@ const Navbar = (props) => {
     <div>
       <Nav>
         <ul>
-          <Link to="MLTP">
+          <Link to="/MLTP">
             <NavStyle color="#3498db">MLTP</NavStyle>
           </Link>
-          <Link to="NLTP">
+          <Link to="/NLTP">
             <NavStyle color="#e67e22">NLTP</NavStyle>
           </Link>
-          <Link to="ELTP">
+          <Link to="/ELTP">
             <NavStyle color="#c0392b">ELTP</NavStyle>
           </Link>
-          <Link to="OLTP">
+          <Link to="/OLTP">
             <NavStyle color="#27ae60">OLTP</NavStyle>
           </Link>
           <Link to="/">

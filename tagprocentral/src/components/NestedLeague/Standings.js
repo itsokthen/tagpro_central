@@ -1,0 +1,11 @@
+import React, { PureComponent } from "react";
+
+const Standings = () => {
+  return (
+    <>
+      <div>Standings</div>
+    </>
+  );
+};
+
+export default Standings;

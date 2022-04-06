@@ -1,33 +1,35 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, Route, useRouteMatch, Switch } from "react-router-dom";
+
+//Pages
 
 //External Imports
 
 const Navbar = (props) => {
-  console.log(props.color.color);
+  const { path, url } = useRouteMatch();
   return (
-    <div>
+    <>
       <Nav color={props.color.color}>
         <ul>
-          <Link to="MLTP">
+          <Link to={`${url}/Scores`}>
             <NavStyle color={props.color.color}>Scores</NavStyle>
           </Link>
-          <Link to="NLTP">
+          <Link to={`${url}/Schedule`}>
             <NavStyle color={props.color.color}>Schedule</NavStyle>
           </Link>
-          <Link to="ELTP">
+          <Link to={`${url}/Standings`}>
             <NavStyle color={props.color.color}>Standings</NavStyle>
           </Link>
-          <Link to="OLTP">
+          <Link to={`${url}/Stats`}>
             <NavStyle color={props.color.color}>Stats</NavStyle>
           </Link>
-          <Link to="/">
+          <Link to={`${url}/Teams`}>
             <NavStyle color={props.color.color}>Teams</NavStyle>
           </Link>
         </ul>
       </Nav>
-    </div>
+    </>
   );
 };
 

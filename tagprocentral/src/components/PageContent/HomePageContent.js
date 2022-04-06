@@ -1,15 +1,10 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import NestedNav from "./Navbar/NestedNav";
-
-class PageContent extends Component {
+class HomePageContent extends Component {
   render() {
     return (
       <PageDetails>
-        <NestedNavStyle>
-          <NestedNav color={this.props} />
-        </NestedNavStyle>
         <div>
           <h1>Scoreboard: Game 1 Game 2 Game 3</h1>
           <h1>League Leaders</h1>
@@ -35,4 +30,4 @@ const NestedNavStyle = styled.div`
   background-color: red;
 `;
 
-export default PageContent;
+export default HomePageContent;

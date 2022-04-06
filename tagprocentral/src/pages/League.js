@@ -4,7 +4,7 @@ import styled from "styled-components";
 //Page Components
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
-import PageContent from "../components/PageContent";
+import PageContent from "../components/PageContent/PageContent";
 
 const League = (props) => {
   return (

@@ -4,7 +4,7 @@ import styled from "styled-components";
 //Page Components
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
-import PageContent from "../components/PageContent";
+import HomePageContent from "../components/PageContent/HomePageContent";
 
 const Home = (props) => {
   return (
@@ -15,7 +15,10 @@ const Home = (props) => {
         </div>
         <PageContentStyle>
           <Navbar />
-          <PageContent test={props} color={props.info[props.league].color} />
+          <HomePageContent
+            test={props}
+            color={props.info[props.league].color}
+          />
         </PageContentStyle>
       </PageStyle>
     </div>
