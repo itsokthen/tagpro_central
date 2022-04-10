@@ -30,7 +30,7 @@ const ScoreSummary = styled.section`
 `;
 
 const LinkStyle = styled.section`
-  max-width: 120px;
+  width: 120px;
   position: relative;
   display: flex;
   border: 1px solid yellow;
