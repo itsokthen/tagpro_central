@@ -1,0 +1,50 @@
+[
+  {
+    "week": "Match 1",
+    "date": "July 12, 2022",
+    "href": "match1",
+    "current": true
+  },
+  {
+    "week": "Match 2",
+    "date": "July 14, 2022",
+    "href": "match2",
+    "current": false
+  },
+  {
+    "week": "Match 3",
+    "date": "July 19, 2022",
+    "href": "match3",
+    "current": false
+  },
+  {
+    "week": "Match 4",
+    "date": "July 21, 2022",
+    "href": "match4",
+    "current": false
+  },
+  {
+    "week": "Match 5",
+    "date": "July 26, 2022",
+    "href": "match5",
+    "current": false
+  },
+  {
+    "week": "Match 6",
+    "date": "July 28, 2022",
+    "href": "match6",
+    "current": false
+  },
+  {
+    "week": "Semifinals",
+    "date": "August 2, 2022",
+    "href": "semifinals",
+    "current": false
+  },
+  {
+    "week": "Finals",
+    "date": "August 4, 2022",
+    "href": "finals",
+    "current": false
+  }
+]

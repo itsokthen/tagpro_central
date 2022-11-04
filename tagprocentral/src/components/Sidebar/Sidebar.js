@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import tpmlogo from "../images/tpmlogo.png";
+//import tpmlogo from "../images/tpmlogo.png";
 
 //External Imports
 import Divider from "@mui/material/Divider";
@@ -12,7 +12,7 @@ class Sidebar extends Component {
     return (
       <SidebarStyle>
         <Logo>
-          <LogoLink color={this.props.color} to="/">
+          <LogoLink to="/" color={this.props.color}>
             TagproCentral
           </LogoLink>
         </Logo>

@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 export default function InsertData() {
   const classes = useStyles();
 
-  const [players, setPlayers] = useState({
+  const [players /*setPlayers*/] = useState({
     season: "",
     week: "",
     scoreA: "",

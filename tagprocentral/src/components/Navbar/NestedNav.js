@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import { Link, Route, useRouteMatch, Switch } from "react-router-dom";
+import { Link, useRouteMatch } from "react-router-dom";
 
 //Pages
 
 //External Imports
 
 const Navbar = (props) => {
-  const { path, url } = useRouteMatch();
+  const { url } = useRouteMatch();
   return (
     <>
       <Nav color={props.color.color}>
         <ul>
-          <Link to={`${url}/Scores`}>
+          <Link to={`${url}/Scores/match1`}>
             <NavStyle color={props.color.color}>Scores</NavStyle>
           </Link>
           <Link to={`${url}/Schedule`}>
@@ -40,19 +40,18 @@ const Nav = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
+  padding: 0 19.5%;
   overflow: hidden;
-  width: 100%;
-  border-bottom: 1px solid #e1e1e1;
+  //width: 100%;
+  border-bottom: 1px solid black;
   box-shadow: 0px 5px 5px -5px #111;
   font-weight: 700;
   font-size: 1.1rem;
   background-color: ${(props) => props.color};
 
-  a{
+  a {
     text-decoration: none;
-    color:black;
-  }
-
+    color: black;
   }
   ul {
     display: flex;
@@ -71,14 +70,11 @@ const NavStyle = styled.li`
   display: flex;
   justify-content: center;
   align-items: center;
-  
-    
-}
-  background-color: ${(props) => props.color};
-    color: white;
-  &:hover {
-    border 2px solid white;
 
+  background-color: ${(props) => props.color};
+  color: white;
+  &:hover {
+    border: 2px solid white;
   }
 `;
 

@@ -24,10 +24,10 @@ const PageDetails = styled.div`
   background-color: white;
 `;
 
-const NestedNavStyle = styled.div`
-  width: 100%;
-  margin-bottom: 15px;
-  background-color: red;
-`;
+// const NestedNavStyle = styled.div`
+//   width: 100%;
+//   margin-bottom: 15px;
+//   background-color: red;
+// `;
 
 export default HomePageContent;

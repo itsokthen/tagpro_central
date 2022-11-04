@@ -1,0 +1,92 @@
+[
+  {
+    "week": 1,
+    "date": "June 14th",
+    "Team1": "MEX",
+    "Team2": "OKT",
+    "results": [
+      {
+        "game1": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game2": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game3": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game4": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game5": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game6": {
+          "T1": false,
+          "T2": false,
+          "OT": false
+        },
+        "game7": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        }
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "date": "June 14th",
+    "Team1": "WAR",
+    "Team2": "DTO",
+    "results": [
+      {
+        "game1": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game2": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game3": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game4": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game5": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        },
+        "game6": {
+          "T1": false,
+          "T2": false,
+          "OT": false
+        },
+        "game7": {
+          "T1": 3,
+          "T2": 4,
+          "OT": false
+        }
+      }
+    ]
+  }
+]
