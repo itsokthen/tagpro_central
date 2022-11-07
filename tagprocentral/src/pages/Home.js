@@ -15,7 +15,7 @@ const Home = (props) => {
         {/* <div>
           <Sidebar test={props} color={props.info[props.league].color} />
         </div> */}
-        <Navbar />
+        <Navbar info={props.info} />
 
         <PageContentStyle>
           <PageContent test={props} color={props.info[props.league].color} />

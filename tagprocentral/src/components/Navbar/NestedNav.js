@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link, useRouteMatch } from "react-router-dom";
+import { NavLink, useRouteMatch } from "react-router-dom";
 
 //Pages
 
@@ -12,21 +12,11 @@ const Navbar = (props) => {
     <>
       <Nav color={props.color.color}>
         <ul>
-          <Link to={`${url}/Scores/match1`}>
-            <NavStyle color={props.color.color}>Scores</NavStyle>
-          </Link>
-          <Link to={`${url}/Schedule`}>
-            <NavStyle color={props.color.color}>Schedule</NavStyle>
-          </Link>
-          <Link to={`${url}/Standings`}>
-            <NavStyle color={props.color.color}>Standings</NavStyle>
-          </Link>
-          <Link to={`${url}/Stats`}>
-            <NavStyle color={props.color.color}>Stats</NavStyle>
-          </Link>
-          <Link to={`${url}/Teams`}>
-            <NavStyle color={props.color.color}>Teams</NavStyle>
-          </Link>
+          <LinkStyle to={`${url}/Scores`}>Scores</LinkStyle>
+          {/* <LinkStyle to={`${url}/Schedule`}>Schedule</LinkStyle> */}
+          <LinkStyle to={`${url}/Standings`}>Standings</LinkStyle>
+          <LinkStyle to={`${url}/Stats`}>Stats</LinkStyle>
+          <LinkStyle to={`${url}/Teams`}>Teams</LinkStyle>
         </ul>
       </Nav>
     </>
@@ -40,7 +30,7 @@ const Nav = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 0 19.5%;
+  padding: 0 0 0 19.5%;
   overflow: hidden;
   //width: 100%;
   border-bottom: 1px solid black;
@@ -51,7 +41,7 @@ const Nav = styled.div`
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   ul {
     display: flex;
@@ -64,15 +54,16 @@ const Nav = styled.div`
   }
 `;
 
-const NavStyle = styled.li`
+const LinkStyle = styled(NavLink)`
   height: 40px;
   width: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: ${(props) => props.color};
-  color: white;
+  &.active {
+    border: 2px solid white;
+  }
   &:hover {
     border: 2px solid white;
   }

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/itsokthen/tagpro_central/issues"
   },
-  "homepage": "https://github.com/itsokthen/tagpro_central#readme"
+  "homepage": "https://github.com/itsokthen/tagpro_central#readme",
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
 }

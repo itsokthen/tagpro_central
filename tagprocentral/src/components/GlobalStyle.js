@@ -17,6 +17,13 @@ a{
 p {
 
 }
+
+.Bold {
+  font-weight: bold;
+}
+.DTos {
+  background-color: red;
+}
 `;
 
 export default GlobalStyle;

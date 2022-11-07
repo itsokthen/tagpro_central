@@ -15,14 +15,17 @@ const League = (props) => {
   });
   return (
     <PageStyle color={props.info[props.league].color}>
-      <Navbar />
+      <Navbar info={props.info} />
       <NestedNavStyle>
         <NestedNav color={props} />
       </NestedNavStyle>
       <PageContentStyle>
-        <PageContent test={props} color={props.info[props.league].color} />
+        <PageContent
+          league={props.info[props.league].league}
+          color={props.info[props.league].color}
+        />
       </PageContentStyle>
-      <div>
+      {/* <div>
         {props.info[props.league].league === "MLTP" ? (
           <h1>bye</h1>
         ) : props.info[props.league].league === "NLTP" ? (
@@ -32,7 +35,7 @@ const League = (props) => {
         ) : (
           <h1>sdfsdf</h1>
         )}
-      </div>
+      </div> */}
       <Footer />
     </PageStyle>
   );

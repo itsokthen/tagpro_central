@@ -1,0 +1,824 @@
+[
+  {
+    "match1": [
+      {
+        "played": true,
+        "week": 1,
+        "date": "July 12",
+        "Team1": "DTos",
+        "Team2": "okthenos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 2,
+              "T2": 6,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 6,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 9,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 12,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 1,
+        "date": "July 12, 2022",
+        "Team1": "Warrios",
+        "Team2": "mexos",
+        "results": [
+          {
+            "game1": {
+              "T1": 8,
+              "T2": 1,
+              "OT": false
+            },
+            "game2": {
+              "T1": 4,
+              "T2": 6,
+              "OT": false
+            },
+            "game3": {
+              "T1": 6,
+              "T2": 3,
+              "OT": false
+            },
+            "game4": {
+              "T1": 5,
+              "T2": 8,
+              "OT": false
+            },
+            "game5": {
+              "T1": 5,
+              "T2": 4,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "match2": [
+      {
+        "played": true,
+        "week": 2,
+        "date": "July 14, 2022",
+        "Team1": "okthenos",
+        "Team2": "mexos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 4,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 4,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 0,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 4,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 2,
+        "date": "July 14, 2022",
+        "Team1": "Warrios",
+        "Team2": "DTos",
+        "results": [
+          {
+            "game1": {
+              "T1": 6,
+              "T2": 4,
+              "OT": false
+            },
+            "game2": {
+              "T1": 1,
+              "T2": 8,
+              "OT": false
+            },
+            "game3": {
+              "T1": 2,
+              "T2": 8,
+              "OT": false
+            },
+            "game4": {
+              "T1": 2,
+              "T2": 9,
+              "OT": false
+            },
+            "game5": {
+              "T1": 4,
+              "T2": 5,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "match3": [
+      {
+        "played": true,
+        "week": 3,
+        "date": "July 19, 2022",
+        "Team1": "DTos",
+        "Team2": "mexos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 5,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 2,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 3,
+              "T2": 6,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 4,
+              "T2": 3,
+              "OT": true
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 3,
+        "date": "July 19, 2022",
+        "Team1": "okthenos",
+        "Team2": "Warrios",
+        "results": [
+          {
+            "game1": {
+              "T1": 4,
+              "T2": 7,
+              "OT": false
+            },
+            "game2": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            },
+            "game3": {
+              "T1": 5,
+              "T2": 2,
+              "OT": false
+            },
+            "game4": {
+              "T1": 5,
+              "T2": 4,
+              "OT": true
+            },
+            "game5": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "match4": [
+      {
+        "played": true,
+        "week": 4,
+        "date": "July 21, 2022",
+        "Team1": "Warrios",
+        "Team2": "DTos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 5,
+              "T2": 4,
+              "OT": true
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 5,
+              "T2": 6,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 6,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 1,
+              "T2": 6,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 4,
+        "date": "July 21, 2022",
+        "Team1": "okthenos",
+        "Team2": "mexos",
+        "results": [
+          {
+            "game1": {
+              "T1": 3,
+              "T2": 2,
+              "OT": true
+            },
+            "game2": {
+              "T1": 3,
+              "T2": 2,
+              "OT": false
+            },
+            "game3": {
+              "T1": 3,
+              "T2": 2,
+              "OT": true
+            },
+            "game4": {
+              "T1": 4,
+              "T2": 1,
+              "OT": false
+            },
+            "game5": {
+              "T1": 4,
+              "T2": 2,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "match5": [
+      {
+        "played": true,
+        "week": 5,
+        "date": "July 26, 2022",
+        "Team1": "okthenos",
+        "Team2": "DTos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 4,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 1,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 4,
+              "T2": 1,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 6,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 5,
+        "date": "July 26, 2022",
+        "Team1": "Warrios",
+        "Team2": "mexos",
+        "results": [
+          {
+            "game1": {
+              "T1": 8,
+              "T2": 2,
+              "OT": false
+            },
+            "game2": {
+              "T1": 4,
+              "T2": 2,
+              "OT": false
+            },
+            "game3": {
+              "T1": 8,
+              "T2": 3,
+              "OT": false
+            },
+            "game4": {
+              "T1": 10,
+              "T2": 4,
+              "OT": false
+            },
+            "game5": {
+              "T1": 10,
+              "T2": 0,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "match6": [
+      {
+        "played": true,
+        "week": 6,
+        "date": "July 28, 2022",
+        "Team1": "Warrios",
+        "Team2": "okthenos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 8,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 6,
+              "T2": 7,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 11,
+              "T2": 1,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 3,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      },
+      {
+        "played": true,
+        "week": 6,
+        "date": "July 28, 2022",
+        "Team1": "DTos",
+        "Team2": "mexos",
+        "results": [
+          {
+            "game1": {
+              "T1": 6,
+              "T2": 4,
+              "OT": false
+            },
+            "game2": {
+              "T1": 5,
+              "T2": 6,
+              "OT": true
+            },
+            "game3": {
+              "T1": 6,
+              "T2": 3,
+              "OT": false
+            },
+            "game4": {
+              "T1": 11,
+              "T2": 5,
+              "OT": false
+            },
+            "game5": {
+              "T1": 7,
+              "T2": 1,
+              "OT": false
+            },
+            "game6": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            },
+            "game7": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          }
+        ]
+      }
+    ],
+    "semifinals": [
+      {
+        "played": true,
+        "week": 7,
+        "date": "August 2, 2022",
+        "Team1": "okthenos",
+        "Team2": "Warrios",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 1,
+              "T2": 0,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 4,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 3,
+              "T2": 2,
+              "OT": true
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 6,
+              "T2": 1,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      }
+    ],
+    "finals": [
+      {
+        "played": true,
+        "week": 8,
+        "date": "August 2, 2022",
+        "Team1": "DTos",
+        "Team2": "okthenos",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 4,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 4,
+              "T2": 1,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 3,
+              "T2": 5,
+              "OT": true
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 6,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 3,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": 6,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+      }
+    ]
+  }
+]

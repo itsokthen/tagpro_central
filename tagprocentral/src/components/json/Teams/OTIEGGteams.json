@@ -1,0 +1,70 @@
+[
+  {
+    "teams": [
+      {
+        "teamname": "Quack Pack",
+        "player1": "Gleg",
+        "value1": "C",
+        "player2": "Hibana",
+        "value2": "127",
+        "player3": "dodsfall",
+        "value3": "47",
+        "player4": "Jswan",
+        "value4": "5",
+        "player5": "Stumbino",
+        "value5": "5",
+        "player6": "okthen",
+        "value6": "5",
+        "bgcolor": "#ff9900"
+      },
+      {
+        "teamname": "The Holy Seehawks",
+        "player1": "bright",
+        "value1": "C",
+        "player2": "zo2",
+        "value2": "63",
+        "player3": "Ray-Ray",
+        "value3": "15",
+        "player4": "slide",
+        "value4": "57",
+        "player5": "TiboManziel",
+        "value5": "20",
+        "player6": "UNIT-01",
+        "value6": "30",
+        "bgcolor": "#00bf00"
+      },
+      {
+        "teamname": "Thunder Gun Eggspress",
+        "player1": "Abe Lincoln",
+        "value1": "C",
+        "player2": "Nawse",
+        "value2": "99",
+        "player3": "dakiller32",
+        "value3": "45",
+        "player4": "ReidRages",
+        "value4": "26",
+        "player5": "xyzes",
+        "value5": "0",
+        "player6": "bbb",
+        "value6": "26",
+        "bgcolor": "#a8222b"
+      },
+      {
+        "teamname": "Rap City Raptors",
+        "player1": "swerve",
+        "value1": "C",
+        "player2": "Cheetosrule",
+        "value2": "87",
+        "player3": "GOOBR",
+        "value3": "63",
+        "player4": "BoldRoller",
+        "value4": "16",
+        "player5": "Emo",
+        "value5": "30",
+        "player6": "Jackals",
+        "value6": "4",
+        "bgcolor": "#cb007b"
+      }
+    ]
+  }
+]

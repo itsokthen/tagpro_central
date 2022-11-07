@@ -2,59 +2,43 @@ import React from "react";
 import styled from "styled-components";
 
 import TeamComponent from "./TeamComponent";
-const Teams = () => {
+import OTITeams from "../json/Teams/OTIteams.json";
+import OTIATeams from "../json/Teams/OTIAteams.json";
+import OTIEUTeams from "../json/Teams/OTIEUteams.json";
+import OTIEGGTeams from "../json/Teams/OTIEGGteams.json";
+
+const Teams = (props) => {
+  let TeamNames = false;
+  if (props.league === "OTI") TeamNames = OTITeams;
+  else if (props.league === "OTIA") TeamNames = OTIATeams;
+  else if (props.league === "OTIEU") TeamNames = OTIEUTeams;
+  else if (props.league === "OTIEGG") TeamNames = OTIEGGTeams;
+
   return (
     <>
       <div>
         <Teamsdiv>
-          <TeamComponent
-            teamname="okthenos"
-            player1="okthen"
-            value1="C"
-            player2="Wayne"
-            value2="1st"
-            player3="NEB."
-            value3="8th"
-            player4="aaron"
-            value4="9th"
-            bgcolor="#0ad0f7"
-          />
-          <TeamComponent
-            teamname="mexos"
-            player1="mex"
-            value1="C"
-            player2="Doris"
-            value2="2nd"
-            player3="BALLDON'TLIE"
-            value3="7th"
-            player4="Messi"
-            value4="10th"
-            bgcolor="#f7900a"
-          />
-          <TeamComponent
-            teamname="DTos"
-            player1="DT"
-            value1="C"
-            player2="Curry"
-            value2="3rd"
-            player3="jig"
-            value3="6th"
-            player4="glob."
-            value4="11th"
-            bgcolor="#361f02"
-          />
-          <TeamComponent
-            teamname="WarriOs"
-            player1="Warriors"
-            value1="C"
-            player2="kool aid"
-            value2="4th"
-            player3="thenewguy."
-            value3="5th"
-            player4="CarrotCake"
-            value4="12th"
-            bgcolor="#e3ca10"
-          />
+          {TeamNames &&
+            TeamNames[0].teams.map((item) => (
+              <TeamComponent
+                key={item.teamname}
+                teamname={item.teamname}
+                player1={item.player1}
+                value1={item.value1}
+                player2={item.player2}
+                value2={item.value2}
+                player3={item.player3}
+                value3={item.value3}
+                player4={item.player4}
+                value4={item.value4}
+                player5={item.player5}
+                value5={item.value5}
+                player6={item.player6}
+                value6={item.value6}
+                bgcolor={item.bgcolor}
+                captain={item.captain}
+              />
+            ))}
         </Teamsdiv>
       </div>
     </>
@@ -66,7 +50,8 @@ const Teamsdiv = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 80%;
-  margin: 50px auto;
+  min-width: 80vw;
+  margin: 2vh 0;
   background-color: white;
   border-radius: 20px;
   padding: 10px;

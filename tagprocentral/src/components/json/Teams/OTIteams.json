@@ -1,0 +1,54 @@
+[
+  {
+    "teams": [
+      {
+        "teamname": "okthenos",
+        "player1": "okthen",
+        "value1": "C",
+        "player2": "Wayne",
+        "value2": "1st",
+        "player3": "NEB.",
+        "value3": "8th",
+        "player4": "aaron",
+        "value4": "9th",
+        "bgcolor": "#0b5394"
+      },
+      {
+        "teamname": "mexos",
+        "player1": "mex",
+        "value1": "C",
+        "player2": "Doris",
+        "value2": "2nd",
+        "player3": "BALLDON'TLIE",
+        "value3": "7th",
+        "player4": "Messi",
+        "value4": "10th",
+        "bgcolor": "#f7931a"
+      },
+      {
+        "teamname": "DTos",
+        "player1": "DT",
+        "value1": "C",
+        "player2": "Curry",
+        "value2": "3rd",
+        "player3": "jig",
+        "value3": "6th",
+        "player4": "glob.",
+        "value4": "11th",
+        "bgcolor": "#2a2121"
+      },
+      {
+        "teamname": "WarriOs",
+        "player1": "Warriors",
+        "value1": "C",
+        "player2": "kool aid",
+        "value2": "4th",
+        "player3": "thenewguy.",
+        "value3": "5th",
+        "player4": "CarrotCake",
+        "value4": "12th",
+        "bgcolor": "#ffe599"
+      }
+    ]
+  }
+]

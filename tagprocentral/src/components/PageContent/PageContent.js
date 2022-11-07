@@ -26,11 +26,21 @@ const PageContent = (props) => {
       </div> */}
       <LeagueInfoStyle>
         <Switch>
-          <Route path={`${path}/Scores`} component={Scores} />
-          <Route path={`${path}/Schedule`} component={Schedule} />
-          <Route path={`${path}/Standings`} component={Standings} />
-          <Route path={`${path}/Stats`} component={Stats} />
-          <Route path={`${path}/Teams`} component={Teams} />
+          <Route path={`${path}/Scores`}>
+            <Scores league={`${props.league}`} color={`${props.color}`} />
+          </Route>
+          <Route path={`${path}/Schedule`}>
+            <Schedule league={`${props.league}`} />
+          </Route>
+          <Route path={`${path}/Standings`}>
+            <Standings league={`${props.league}`} />
+          </Route>
+          <Route path={`${path}/Stats`}>
+            <Stats league={`${props.league}`} />
+          </Route>
+          <Route path={`${path}/Teams`}>
+            <Teams league={`${props.league}`} />
+          </Route>
         </Switch>
       </LeagueInfoStyle>
     </PageDetails>
@@ -51,6 +61,8 @@ const PageDetails = styled.div`
   margin-bottom: 15px;
 `; */
 
-const LeagueInfoStyle = styled.div``;
+const LeagueInfoStyle = styled.div`
+  max-width: 80vw;
+`;
 
 export default PageContent;

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 //External Imports
 
 const Navbar = (props) => {
-  console.log();
   return (
     <div>
       <Nav>
@@ -14,23 +13,23 @@ const Navbar = (props) => {
         </Logo>
         <Leagues>
           <ul>
-            <Link to="/MLTP/Scores/match1">
-              <NavStyle color="#3498db">OTI</NavStyle>
+            <Link to="/OTI/Scores">
+              <NavStyle color={props.info.OTI}>OTI</NavStyle>
             </Link>
-            <Link to="/NLTP">
-              <NavStyle color="#e67e22">OTI A</NavStyle>
+            <Link to="/OTIA">
+              <NavStyle color={props.info.OTIA}>OTI A</NavStyle>
             </Link>
-            <Link to="/ELTP">
-              <NavStyle color="#c0392b">OTI EU</NavStyle>
+            <Link to="/OTIEU">
+              <NavStyle color={props.info.OTIEU}>OTI EU</NavStyle>
             </Link>
-            <Link to="/OLTP">
-              <NavStyle color="#27ae60">OTI Egg</NavStyle>
-            </Link>
-            <Link to="/">
-              <NavStyle color="#9347c9">OTHER</NavStyle>
+            <Link to="/OTIEGG">
+              <NavStyle color={props.info.OTIEGG}>OTI Egg</NavStyle>
             </Link>
             <Link to="/">
-              <NavStyle color="#9347c9">NALTP</NavStyle>
+              <NavStyle color={props.info.OTHER}>OTHER</NavStyle>
+            </Link>
+            <Link to="/">
+              <NavStyle color={props.info.OTHER}>NALTP</NavStyle>
             </Link>
           </ul>
         </Leagues>
@@ -43,10 +42,14 @@ const Navbar = (props) => {
 
 const Logo = styled.div`
   width: 20%;
+  min-width: 100px;
   padding: 0 5%;
   font-family: "Merriweather", serif;
   font-size: 1.2rem;
   font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Leagues = styled.div`
@@ -60,7 +63,8 @@ const Nav = styled.div`
   min-height: 60px;
   display: flex;
   align-items: center;
-  
+  display: flex;
+
   position: fixed;
   top: 0;
   width: 100%;

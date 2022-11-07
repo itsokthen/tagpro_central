@@ -1,0 +1,85 @@
+[
+  {
+    "teams": [
+      {
+        "teamname": "dingos",
+        "captain": "Curry",
+        "player1": "bbb",
+        "value1": "32",
+        "player2": "Prime",
+        "value2": "65",
+        "player3": "DiNgBaT.",
+        "value3": "53",
+        "player4": "spacetiger",
+        "value4": "50",
+        "bgcolor": "#93c47d"
+      },
+      {
+        "teamname": "HDos",
+        "captain": "inthesomeday",
+        "player1": "i love HD",
+        "value1": "80",
+        "player2": "Frank",
+        "value2": "55",
+        "player3": "jazzz",
+        "value3": "32",
+        "player4": "GillyBall",
+        "value4": "0",
+        "bgcolor": "#ffcae1"
+      },
+      {
+        "teamname": "Boos",
+        "captain": "Activ.",
+        "player1": "ASAP",
+        "value1": "65",
+        "player2": "Boo Caw Key",
+        "value2": "98",
+        "player3": "kl",
+        "value3": "18",
+        "player4": "#SelfySyntax.",
+        "value4": "0",
+        "bgcolor": "#a9a9a9"
+      },
+      {
+        "teamname": "Boldos",
+        "captain": "GnasStrafDel",
+        "player1": "d0pe",
+        "value1": "69",
+        "player2": "Gleg",
+        "value2": "34",
+        "player3": "BoldRoller",
+        "value3": "80",
+        "player4": "RKT.",
+        "value4": "0",
+        "bgcolor": "#fff2cc"
+      },
+      {
+        "teamname": "d4nkos",
+        "captain": "waterwheel",
+        "player1": "d4nk",
+        "value1": "78",
+        "player2": "ref",
+        "value2": "65",
+        "player3": "Sugar",
+        "value3": "33",
+        "player4": "flaccid trip.",
+        "value4": "20",
+        "bgcolor": "#d9ead3"
+      },
+
+      {
+        "teamname": "Tyos",
+        "captain": "JARVISLANDRY",
+        "player1": "Ty",
+        "value1": "87",
+        "player2": "ccga / Fender",
+        "value2": "81",
+        "player3": "Squeeb.",
+        "value3": "0",
+        "player4": "King Krule",
+        "value4": "0",
+        "bgcolor": "#e6b8af"
+      }
+    ]
+  }
+]

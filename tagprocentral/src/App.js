@@ -9,25 +9,29 @@ import { SeasonContextProvidor } from "./components/context/SeasonContext";
 
 function App() {
   const LeagueInfo = {
-    MLTP: {
-      league: "MLTP",
-      color: "#3498db",
+    OTI: {
+      league: "OTI",
+      // color: "#3498db",
+      color: "#00db96",
     },
-    NLTP: {
-      league: "NLTP",
-      color: "#e67e22",
+    OTIA: {
+      league: "OTIA",
+      // color: "#e67e22",
+      color: "#49297e",
     },
-    ELTP: {
-      league: "ELTP",
-      color: "#c0392b",
+    OTIEU: {
+      league: "OTIEU",
+      // color: "#c0392b",
+      color: "#90dcff",
     },
-    OLTP: {
-      league: "OLTP",
-      color: "#27ae60",
+    OTIEGG: {
+      league: "OTIEGG",
+      color: "#e10086",
+      // color: "#27ae60",
     },
     OTHER: {
       league: "OTHER",
-      color: "#9347c9",
+      color: "#fdfb76",
     },
   };
   return (
@@ -42,17 +46,17 @@ function App() {
           <Route path="/admin">
             <Admin />
           </Route>
-          <Route path="/MLTP">
-            <League info={LeagueInfo} league="MLTP" />
+          <Route path="/OTI">
+            <League info={LeagueInfo} league="OTI" />
           </Route>
-          <Route path="/NLTP">
-            <League info={LeagueInfo} league="NLTP" />
+          <Route path="/OTIA">
+            <League info={LeagueInfo} league="OTIA" />
           </Route>
-          <Route path="/ELTP">
-            <League info={LeagueInfo} league="ELTP" />
+          <Route path="/OTIEU">
+            <League info={LeagueInfo} league="OTIEU" />
           </Route>
-          <Route path="/OLTP">
-            <League info={LeagueInfo} league="OLTP" />
+          <Route path="/OTIEGG">
+            <League info={LeagueInfo} league="OTIEGG" />
           </Route>
         </Switch>
       </Router>

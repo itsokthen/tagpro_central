@@ -1,0 +1,54 @@
+[
+  {
+    "teams": [
+      {
+        "teamname": "Impos",
+        "player1": "Imp",
+        "value1": "C",
+        "player2": "SoulCake",
+        "value2": "100",
+        "player3": "Pingu.",
+        "value3": "0",
+        "player4": "red coat",
+        "value4": "0",
+        "bgcolor": "#666666"
+      },
+      {
+        "teamname": "Gvenos",
+        "player1": "Gven",
+        "value1": "C",
+        "player2": "Sherra",
+        "value2": "100",
+        "player3": "sweatypete",
+        "value3": "0",
+        "player4": "Stink",
+        "value4": "0",
+        "bgcolor": "#2a2121"
+      },
+      {
+        "teamname": "nomos",
+        "player1": "nom",
+        "value1": "C",
+        "player2": "okthen",
+        "value2": "100",
+        "player3": "Osy",
+        "value3": "50",
+        "player4": "Jerry.",
+        "value4": "50",
+        "bgcolor": "#cc4125"
+      },
+      {
+        "teamname": "xcvos",
+        "player1": "xcv",
+        "value1": "C",
+        "player2": "Ballkenede",
+        "value2": "100",
+        "player3": "Sensei Osy",
+        "value3": "0",
+        "player4": "Nilus",
+        "value4": "0",
+        "bgcolor": "#ffd966"
+      }
+    ]
+  }
+]
