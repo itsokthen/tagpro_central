@@ -4,48 +4,48 @@
       {
         "played": true,
         "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "dingos",
-        "Team2": "HDos",
+        "date": "Aug 16, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "Thunder Gun Eggspress",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 2,
-              "T2": 5,
+              "T1": 10,
+              "T2": 7,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 4,
-              "T2": 3,
+              "T1": 12,
+              "T2": 6,
               "OT": false
             }
           },
           {
             "match": "game3",
             "game": {
-              "T1": 5,
-              "T2": 2,
+              "T1": 9,
+              "T2": 6,
               "OT": false
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 5,
-              "T2": 4,
+              "T1": 11,
+              "T2": 7,
               "OT": false
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 4,
-              "T2": 5,
-              "OT": true
+              "T1": 14,
+              "T2": 8,
+              "OT": false
             }
           },
           {
@@ -65,49 +65,151 @@
             }
           }
         ],
-        "summary": "The sandwich series goes the dingos way but a close victory in Game 5 will keep the HDos contempt with the week"
+        "summary": "Quack Pack come out SWINGING.  Hitting double digits in nearly every game while giving up 8 at most."
       },
       {
         "played": true,
         "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "Boos",
-        "Team2": "Tyos",
+        "date": "Aug 16, 2022",
+        "Team1": "The Holy Seehawks",
+        "Team2": "Rap City Raptors",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 1,
-              "T2": 5,
+              "T1": 8,
+              "T2": 15,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 4,
-              "T2": 2,
+              "T1": 15,
+              "T2": 9,
               "OT": false
             }
           },
           {
             "match": "game3",
             "game": {
-              "T1": 3,
-              "T2": 4,
+              "T1": 9,
+              "T2": 10,
               "OT": false
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 4,
-              "T2": 2,
+              "T1": 8,
+              "T2": 10,
               "OT": false
             }
           },
           {
             "match": "game5",
+            "game": {
+              "T1": 10,
+              "T2": 19,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "Game 5 was the exclamation mark on this 4-1 series win for the Rap City Raptors scoring 19!  THS looks to step their defense up next week."
+      }
+    ],
+    "match2": [
+      {
+        "played": true,
+        "week": 2,
+        "date": "Aug 18, 2022",
+        "Team1": "Thunder Gun Eggspress",
+        "Team2": "Rap City Raptors",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 6,
+              "T2": 21,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 7,
+              "T2": 13,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 8,
+              "T2": 9,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 15,
+              "T2": 7,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 5,
+              "T2": 13,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "After losing their first 8 games to start the season TGX finally got a much needed 15-7 win.  However they still got outscored by 18 in this series."
+      },
+      {
+        "played": true,
+        "week": 2,
+        "date": "July 14, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "The Holy Seehawks",
+        "results": [
+          {
+            "match": "game1",
             "game": {
               "T1": 11,
               "T2": 5,
@@ -115,404 +217,35 @@
             }
           },
           {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "The Tyos came out to a dominant start but couldn't keep their momentum up trading games.  A big win in game 5 gives Boos the series."
-      },
-      {
-        "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "Boldos",
-        "Team2": "d4nkos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 7,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
             "match": "game2",
             "game": {
-              "T1": 7,
-              "T2": 3,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 3,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 2,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 1,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "Big wins in game 1 and 2 gave huge worry to the draft of the d4nkos, but after collecting themselves they managed to salvage the series winning the final 2 games."
-      }
-    ],
-    "match2": [
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 20, 2022",
-        "Team1": "Boos",
-        "Team2": "dingos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 8,
-              "T2": 3,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 4,
-              "T2": 0,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 6,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 5,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 5,
-              "T2": 7,
-              "OT": true
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "The Boos offense had no struggles scoring 28 caps but defensive struggles in the final 2 games would only net them a 3-2 week."
-      },
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 20, 2022",
-        "Team1": "Tyos",
-        "Team2": "d4nkos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 1,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 7,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 5,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 4,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 4,
-              "T2": 3,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "the d4nkos find momentum in games 3 and 4 but lose a heartbreaker in game 5.  They'll have to settle with a 3-2 series"
-      },
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 20, 2022",
-        "Team1": "HDos",
-        "Team2": "Boldos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 3,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 2,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 6,
-              "T2": 0,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 5,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 3,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "HDos defense wins them 3 games including a shutout performance.  Boldos nearly double their weeks cap in Game 5 scoring 7 and securing 2 wins on the week."
-      }
-    ],
-
-    "match3": [
-      {
-        "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "Hdos",
-        "Team2": "d4nkos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 2,
-              "T2": 6,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 4,
-              "T2": 5,
-              "OT": true
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 1,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 3,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 3,
-              "T2": 6,
-              "OT": true
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "SWEEEEEEP!  d4nkos win all 5.  Hdos kept all games competitive but couldn't keep up when it counted."
-      },
-      {
-        "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "dingos",
-        "Team2": "Tyos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 3,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 4,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 1,
-              "T2": 6,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 1,
+              "T1": 10,
               "T2": 8,
               "OT": false
             }
           },
           {
+            "match": "game3",
+            "game": {
+              "T1": 9,
+              "T2": 9,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 6,
+              "T2": 7,
+              "OT": false
+            }
+          },
+          {
             "match": "game5",
             "game": {
-              "T1": 4,
-              "T2": 5,
-              "OT": true
+              "T1": 9,
+              "T2": 7,
+              "OT": false
             }
           },
           {
@@ -532,27 +265,29 @@
             }
           }
         ],
-        "summary": "Game 3 and 4 stomps followed by a clutch Game 5 victory lets Ty lead his team to a 3-2 series victory."
-      },
+        "summary": "After 2 blowout losses, THS recovered getting a tie in Game 3 and a win in Game 4.  QP takes the series 3-1-1."
+      }
+    ],
+    "match3": [
       {
         "played": true,
-        "week": 2,
-        "date": "July 18, 2022",
-        "Team1": "Boldos",
-        "Team2": "Boos",
+        "week": 3,
+        "date": "Aug 23, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "Rap City Raptors",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 1,
-              "T2": 9,
+              "T1": 7,
+              "T2": 8,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 5,
+              "T1": 11,
               "T2": 10,
               "OT": false
             }
@@ -560,92 +295,24 @@
           {
             "match": "game3",
             "game": {
-              "T1": 7,
-              "T2": 2,
+              "T1": 11,
+              "T2": 9,
               "OT": false
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 7,
-              "T2": 5,
+              "T1": 5,
+              "T2": 9,
               "OT": false
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 3,
+              "T1": 11,
               "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "Only one game was competitive this week between the Boldos and Boos with the Boos taking it and the series 3-2."
-      }
-    ],
-    "match4": [
-      {
-        "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "Boldos",
-        "Team2": "dingos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 2,
-              "T2": 8,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 7,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 8,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 7,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 9,
-              "T2": 3,
               "OT": true
             }
           },
@@ -666,51 +333,51 @@
             }
           }
         ],
-        "summary": "A dominant game 1 would give the dingos false hope as they proceeded to lose the final 4 giving up no less than 7 in each game."
+        "summary": "Quack Pack win every series in the first half of the season beating RCR 3-2.  RCR did manage to make this the closest series of the season thus far."
       },
       {
         "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "d4nkos",
-        "Team2": "Boos",
+        "week": 3,
+        "date": "Aug 23, 2022",
+        "Team1": "The Holy Seehawks",
+        "Team2": "Thunder Gun Eggspress",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 3,
-              "T2": 2,
+              "T1": 10,
+              "T2": 7,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 1,
-              "T2": 5,
+              "T1": 12,
+              "T2": 7,
               "OT": false
             }
           },
           {
             "match": "game3",
             "game": {
-              "T1": 4,
-              "T2": 3,
+              "T1": 12,
+              "T2": 7,
               "OT": false
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 7,
-              "T2": 1,
-              "OT": false
+              "T1": 10,
+              "T2": 8,
+              "OT": true
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 3,
+              "T1": 7,
               "T2": 9,
               "OT": false
             }
@@ -732,252 +399,120 @@
             }
           }
         ],
-        "summary": "The Boos offense and defense struggle in Games 1, 3, & 4 yet manage to dominate in Games 2 & 5.  They look to build consistency next week."
-      },
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 18, 2022",
-        "Team1": "Hdos",
-        "Team2": "Tyos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 4,
-              "T2": 6,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 6,
-              "T2": 7,
-              "OT": true
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 1,
-              "T2": 4,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 3,
-              "T2": 6,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 3,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "After an awkward first half of the season the Tyos get a much needed sweep over the HDos.  HDos will be desperate for wins to make playoffs next week."
+        "summary": "777 was not TGX lucky numbers and this season has not been lucky thus far with only 2 wins in 3 weeks.  THS get back in the run winning 4."
       }
     ],
-    "match5": [
+    "match4": [
       {
         "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "d4nkos",
-        "Team2": "dingos",
+        "week": 4,
+        "date": "Aug 25, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "Thunder Gun Eggspress",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 6,
-              "T2": 3,
-              "OT": false
+              "T1": 12,
+              "T2": 1,
+              "OT": true
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 4,
+              "T1": 11,
+              "T2": 12,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 14,
               "T2": 6,
               "OT": false
             }
           },
           {
-            "match": "game3",
-            "game": {
-              "T1": 9,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
             "match": "game4",
             "game": {
-              "T1": 9,
-              "T2": 4,
+              "T1": 14,
+              "T2": 14,
               "OT": false
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 2,
-              "T2": 3,
+              "T1": 15,
+              "T2": 12,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "TGX left the game down 11 after their frustrating finally broke them.  After the dust settled xyzes quit and was replaced by Wayne who instantly got his new team a win.  Is TGX back?"
+      },
+      {
+        "played": true,
+        "week": 4,
+        "date": "Aug 25, 2022",
+        "Team1": "The Holy Seehawks",
+        "Team2": "Rap City Raptors",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 8,
+              "T2": 5,
               "OT": true
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "The d4nkos kill any hope of the dingos playoffs, scoring 9 in Games 3 and 4 and winning the series."
-      },
-      {
-        "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "Boos",
-        "Team2": "Hdos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 5,
-              "T2": 2,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 2,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 6,
-              "T2": 7,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": 2,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": 0,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "Despite having nothing to play for, the HDos take 4 of 5 from the Boos even after dropping game 1.  Boos look to reshape before playoffs."
-      },
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 18, 2022",
-        "Team1": "Tyos",
-        "Team2": "Boldos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 6,
-              "T2": 4,
-              "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
               "T1": 8,
-              "T2": 2,
+              "T2": 8,
               "OT": false
             }
           },
           {
             "match": "game3",
             "game": {
-              "T1": 3,
-              "T2": 0,
-              "OT": false
+              "T1": 8,
+              "T2": 14,
+              "OT": true
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 2,
-              "T2": 5,
+              "T1": 9,
+              "T2": 13,
               "OT": false
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 6,
-              "T2": 1,
+              "T1": 17,
+              "T2": 16,
               "OT": false
             }
           },
@@ -998,30 +533,164 @@
             }
           }
         ],
-        "summary": "This brother vs brother matchup would go dominantly in Ty's favor winning the aggregate 25-12 and the series 4-1."
+        "summary": "The first 2-2-1 series split comes in week 4 between THS and RCR.  A mostly low scoring affair turned into a shootout in game 5 and a last second win for THS."
       }
     ],
-    "semifinals": [
+    "match5": [
       {
         "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "d4nkos",
-        "Team2": "Boldos",
+        "week": 5,
+        "date": "Aug 39, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "The Holy Seehawks",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 1,
-              "T2": 0,
+              "T1": 18,
+              "T2": 3,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 1,
-              "T2": 3,
+              "T1": 6,
+              "T2": 7,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 8,
+              "T2": 9,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 11,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 12,
+              "T2": 12,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "Despite winning the series aggregate 55-36, Quack Pack can only manage a 2-2-1 split against THS.  THS played lock down defense after giving up 18 in game 1 and get two single digit victories."
+      },
+      {
+        "played": true,
+        "week": 5,
+        "date": "Aug 30, 2022",
+        "Team1": "Thunder Gun Eggspress",
+        "Team2": "Rap City Raptors",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 15,
+              "T2": 14,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 11,
+              "T2": 12,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 12,
+              "T2": 12,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 10,
+              "T2": 13,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 13,
+              "T2": 14,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "Over 120 points were scored in this shootout series.  Double digit points scored by each team in each game yet RCR comes away with a 3-1-1 series win."
+      }
+    ],
+    "match6": [
+      {
+        "played": true,
+        "week": 6,
+        "date": "Sept 1, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "Rap City Raptors",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 13,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 7,
+              "T2": 7,
               "OT": false
             }
           },
@@ -1029,132 +698,200 @@
             "match": "game3",
             "game": {
               "T1": 4,
-              "T2": 1,
+              "T2": 11,
               "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 4,
+              "T2": 13,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 7,
+              "T2": 9,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "The battle of the first seed came down to this game.  RCR needed to win 3 games and they achieved it on the back of their defense.  Only giving up 15 combined in teh final 3 games of the series."
+      },
+      {
+        "played": true,
+        "week": 6,
+        "date": "Sept 1, 2022",
+        "Team1": "The Holy Seehawks",
+        "Team2": "Rap City Raptors",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 13,
+              "T2": 8,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 3,
+              "T2": 18,
+              "OT": true
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 12,
+              "T2": 11,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 10,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 5,
+              "T2": 8,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          }
+        ],
+        "summary": "TGX will manage to win their final series after a bumpy start to the season, however it will not matter as THS will still secure playoffs and eliminate TGS."
+      }
+    ],
+    "semifinals": [
+      {
+        "played": true,
+        "week": 7,
+        "date": "Sept 6, 2022",
+        "Team1": "Quack Pack",
+        "Team2": "The Holy Seehawks",
+        "results": [
+          {
+            "match": "game1",
+            "game": {
+              "T1": 1,
+              "T2": 0,
+              "OT": false
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 6,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 7,
+              "T2": 12,
+              "OT": true
             }
           },
           {
             "match": "game4",
             "game": {
               "T1": 5,
-              "T2": 2,
+              "T2": 9,
               "OT": false
             }
           },
           {
             "match": "game5",
             "game": {
-              "T1": 3,
-              "T2": 4,
+              "T1": 10,
+              "T2": 11,
               "OT": false
             }
           },
           {
             "match": "game6",
             "game": {
-              "T1": false,
-              "T2": false,
+              "T1": 10,
+              "T2": 6,
               "OT": false
             }
           },
           {
             "match": "game7",
             "game": {
-              "T1": false,
-              "T2": false,
+              "T1": 8,
+              "T2": 9,
               "OT": false
             }
           }
         ],
-        "summary": "Boldos would equilize the 1 game advantage but couldn't muster up the caps in Games 3 and 4."
-      },
-      {
-        "played": true,
-        "week": 2,
-        "date": "July 18, 2022",
-        "Team1": "Tyos",
-        "Team2": "Boos",
-        "results": [
-          {
-            "match": "game1",
-            "game": {
-              "T1": 1,
-              "T2": 0,
-              "OT": false
-            }
-          },
-          {
-            "match": "game2",
-            "game": {
-              "T1": 7,
-              "T2": 0,
-              "OT": false
-            }
-          },
-          {
-            "match": "game3",
-            "game": {
-              "T1": 1,
-              "T2": 5,
-              "OT": false
-            }
-          },
-          {
-            "match": "game4",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game5",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game6",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          },
-          {
-            "match": "game7",
-            "game": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            }
-          }
-        ],
-        "summary": "The Boos continued their fall right out of the league from last week.  Losing a heartbreaker in overtime wrecked their mental as they flopped in Game 3."
+        "summary": "With their 1 game advantage, QP would take a low scoring Game 2 but out of no where the THS offense picked up steam scoring 32 in 3 games winning all of them.  QP would take a confident Game 6 to push it to a decider but THS would get a goaline stop to win by 1 in the final seconds and take the series."
       }
     ],
     "finals": [
       {
         "played": true,
-        "week": 1,
-        "date": "July 18, 2022",
-        "Team1": "d4nkos",
-        "Team2": "Tyos",
+        "week": 8,
+        "date": "Sept 8, 2022",
+        "Team1": "Rap City Raptors",
+        "Team2": "The Holy Seehawks",
         "results": [
           {
             "match": "game1",
             "game": {
-              "T1": 6,
-              "T2": 1,
+              "T1": 1,
+              "T2": 0,
               "OT": false
             }
           },
           {
             "match": "game2",
             "game": {
-              "T1": 7,
+              "T1": 1,
               "T2": 0,
               "OT": false
             }
@@ -1162,16 +899,16 @@
           {
             "match": "game3",
             "game": {
-              "T1": 6,
-              "T2": 1,
-              "OT": false
+              "T1": 1,
+              "T2": 0,
+              "OT": true
             }
           },
           {
             "match": "game4",
             "game": {
-              "T1": 2,
-              "T2": 1,
+              "T1": 1,
+              "T2": 0,
               "OT": false
             }
           },
@@ -1180,7 +917,7 @@
             "game": {
               "T1": false,
               "T2": false,
-              "OT": true
+              "OT": false
             }
           },
           {
@@ -1200,7 +937,7 @@
             }
           }
         ],
-        "summary": "It was ALL d4nkos in the finals.  Tyos would only manage to score 3 caps in 4 games.  A competitive Game 4 gave Tyos hope but the d4nkos shut the door hard and swept to be OTIA Champions."
+        "summary": "Can you say CONTROVERSY??  After rescheduling conversations stalled THS FORFEITS the finals.  THS star player slide could not attend the finals but RCR could not reschedule thus RCR wins by default as THS did not show up."
       }
     ]
   }

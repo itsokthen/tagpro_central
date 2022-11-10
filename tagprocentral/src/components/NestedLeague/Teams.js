@@ -13,7 +13,6 @@ const Teams = (props) => {
   else if (props.league === "OTIA") TeamNames = OTIATeams;
   else if (props.league === "OTIEU") TeamNames = OTIEUTeams;
   else if (props.league === "OTIEGG") TeamNames = OTIEGGTeams;
-
   return (
     <>
       <div>

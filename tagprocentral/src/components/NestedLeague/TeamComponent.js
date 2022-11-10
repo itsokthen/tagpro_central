@@ -5,6 +5,8 @@ import rolling from "../../images/rollingPUP.png";
 import jukejuice from "../../images/jukejuicePUP.png";
 import topspeed from "../../images/topspeedPUP.png";
 import tagproBomb from "../../images/crown_1.png";
+import tagproBallBlue from "../../images/tagproBallBlue.png";
+import tagproBallRed from "../../images/tagproBallRed.png";
 
 const TeamComponent = (props) => {
   return (
@@ -43,7 +45,7 @@ const TeamComponent = (props) => {
         {props.player5 && (
           <Title>
             <Players>
-              <img src={topspeed} alt="."></img> {props.player5}
+              <img src={tagproBallBlue} alt="."></img> {props.player5}
             </Players>
             <Value>{props.value5}</Value>
           </Title>
@@ -51,7 +53,7 @@ const TeamComponent = (props) => {
         {props.player5 && (
           <Title>
             <Players>
-              <img src={topspeed} alt="."></img> {props.player6}
+              <img src={tagproBallRed} alt="."></img> {props.player6}
             </Players>
             <Value>{props.value6}</Value>
           </Title>

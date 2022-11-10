@@ -65,7 +65,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "Gvenos start the season strong winning 4 of 5.  The Impos could not stop Sherra as the Gvenos high scoring offense rolled Games 3 thru 5."
       },
       {
         "played": true,
@@ -75,43 +75,63 @@
         "Team2": "xcvos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 1,
-              "T2": 61,
+              "T2": 6,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 2,
               "T2": 11,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 6,
               "T2": 7,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 1,
               "T2": 11,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 4,
               "T2": 5,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "xcvos start the season off as strong as possible sweeping the nomos.  The nomos need to knock the rust off fast as they fall behind hard in week 1."
       }
     ],
     "match2": [
@@ -179,7 +199,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The Impos defense got their footing together for Games 3 & 4 securing 2 wins but still struggled in the rest losing the series 3-2."
       },
       {
         "played": true,
@@ -189,43 +209,63 @@
         "Team2": "Gvenos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 5,
               "T2": 4,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 1,
               "T2": 4,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 0,
               "T2": 8,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 3,
               "T2": 7,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 2,
               "T2": 6,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "The nomos finally got their first win of the season in Game 1.  Unfortunately for them it would remain their only win of the season after Gvenos dominated the rest of the series."
       }
     ],
     "match3": [
@@ -293,7 +333,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The nomos take their first series victory.  Getting the better half of the sandwich series over the Impos, they'll need to keep this up in the 2nd half of the season."
       },
       {
         "played": true,
@@ -303,43 +343,63 @@
         "Team2": "Gvenos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 8,
               "T2": 2,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 4,
               "T2": 6,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 9,
               "T2": 4,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 2,
               "T2": 7,
               "OT": true
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 5,
               "T2": 4,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "This back and forth series will go in favor of the xcvos.  Neither team could manage to put 2 consecutive good games together but a 1 cap vicotry in Game 5 was the difference maker."
       }
     ],
     "match4": [
@@ -407,7 +467,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "This battle for the top would have Gvenos coming out victorious.  Down 2-1 in the series they put together 2 strong games to end it."
       },
       {
         "played": true,
@@ -417,43 +477,63 @@
         "Team2": "xcvos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 3,
               "T2": 5,
               "OT": true
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 7,
               "T2": 4,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 2,
               "T2": 5,
               "OT": true
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 4,
               "T2": 5,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 6,
               "T2": 2,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "In a must win series for both teams the xcvos take it 3-2.  The nomos take game 5 but they're still chasing xcvos for the final playoff spot."
       }
     ],
     "match5": [
@@ -521,7 +601,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The Impos get a very clutch 4-1 series win putting themselves in great position for the playoffs.  xcvos need to rebound if they want the 1 seed. "
       },
       {
         "played": true,
@@ -531,43 +611,63 @@
         "Team2": "Gvenos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 4,
               "T2": 5,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 4,
               "T2": 5,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 5,
               "T2": 2,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 5,
               "T2": 6,
               "OT": false
-            },
-            "game5": {
-              "T1": 3,
-              "T2": 4,
-              "OT": false
-            },
-            "game6": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            },
-            "game7": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 3,
               "T2": 4,
               "OT": false
             }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
           }
-        ]
+        ],
+        "summary": "The Gvenos win 4 games each by 1 cap.  The nomos just fall short over and over and are on the brink of elimination."
       }
     ],
     "match6": [
@@ -635,53 +735,73 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The Impos do what they were supposed to and get the sweep to end the season.  They'll carry this momentum into the playoffs."
       },
       {
         "played": true,
         "week": 6,
         "date": "Sept 1, 2022",
-        "Team1": "xxcos",
-        "Team2": "nomos",
+        "Team1": "xcvos",
+        "Team2": "Gvenos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 5,
               "T2": 4,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 8,
               "T2": 1,
               "OT": true
-            },
-            "game3": {
-              "T1": 3,
-              "T2": 4,
-              "OT": false
-            },
-            "game4": {
-              "T1": 5,
-              "T2": 0,
-              "OT": false
-            },
-            "game5": {
-              "T1": 7,
-              "T2": 5,
-              "OT": false
-            },
-            "game6": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            },
-            "game7": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 3,
               "T2": 4,
               "OT": false
             }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 5,
+              "T2": 0,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 7,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
           }
-        ]
+        ],
+        "summary": "The race for the 1 seed all game down to this.  Gvenos just needed to win 2 but the xcvos would not let them.  Taking 4 including a contreversial win in Game 1 with incorrect settings on the group."
       }
     ],
     "semifinals": [
@@ -749,7 +869,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The Impos overcame Gvenos 1 game advantage early but after dropping Game 3 it looked to be a tight series.  But the Impos would take full momentum and win the final 3 in convincing fashion."
       }
     ],
     "finals": [
@@ -817,7 +937,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "This was an incredibly thrilling finals.  xcvos took an early 2-0 in tough fought games but the series would be equalized after huge offensive explosions by the Impos.  However, in a series defining Game 5 the xcvos would take it by 1 and finish it off in Game 6."
       }
     ]
   }

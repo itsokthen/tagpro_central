@@ -3,8 +3,9 @@
     "match1": [
       {
         "played": true,
+        "matchID": 1,
         "week": 1,
-        "date": "July 12",
+        "date": "July 12, 2022",
         "Team1": "DTos",
         "Team2": "okthenos",
         "results": [
@@ -69,49 +70,70 @@
       },
       {
         "played": true,
+        "matchID": 2,
         "week": 1,
         "date": "July 12, 2022",
         "Team1": "Warrios",
         "Team2": "mexos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 8,
               "T2": 1,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 4,
               "T2": 6,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 6,
               "T2": 3,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 5,
               "T2": 8,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 5,
               "T2": 4,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "Warrios and mexos swap games back and forth in a high scoring affair with Warrios coming out on top 3-2"
       }
     ],
     "match2": [
@@ -179,7 +201,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The mexos storm back after down 2-0 to take this series 3-2 on the back of strong defense from mex and Doris"
       },
       {
         "played": true,
@@ -189,43 +211,63 @@
         "Team2": "DTos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 6,
               "T2": 4,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 1,
               "T2": 8,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 2,
               "T2": 8,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game41",
+            "game": {
               "T1": 2,
               "T2": 9,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 4,
               "T2": 5,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
               "T1": 3,
               "T2": 4,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "For the 2nd week DTos drop game 1 but turn it around quickly in a win streak.  Looking strong after the first 2 games."
       }
     ],
     "match3": [
@@ -293,7 +335,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "Fan favorite mexos suprise the 1 seed DTos and take 3 of 5 and win the series with a +3 cap differential"
       },
       {
         "played": true,
@@ -303,43 +345,63 @@
         "Team2": "Warrios",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 4,
               "T2": 7,
               "OT": false
-            },
-            "game2": {
-              "T1": 3,
-              "T2": 4,
-              "OT": false
-            },
-            "game3": {
-              "T1": 5,
-              "T2": 2,
-              "OT": false
-            },
-            "game4": {
-              "T1": 5,
-              "T2": 4,
-              "OT": true
-            },
-            "game5": {
-              "T1": 2,
-              "T2": 4,
-              "OT": false
-            },
-            "game6": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            },
-            "game7": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 3,
               "T2": 4,
               "OT": false
             }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 5,
+              "T2": 2,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 5,
+              "T2": 4,
+              "OT": true
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 2,
+              "T2": 4,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
           }
-        ]
+        ],
+        "summary": "A clutch Game 2 cap by Warriors would secure his team the win, vaulting his team to win the series"
       }
     ],
     "match4": [
@@ -407,7 +469,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "Another back and forth series between DTos and Warrios.  DTos inch closer to clinching the 1 seed"
       },
       {
         "played": true,
@@ -417,43 +479,63 @@
         "Team2": "mexos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 3,
               "T2": 2,
               "OT": true
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 3,
               "T2": 2,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 3,
               "T2": 2,
               "OT": true
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 4,
               "T2": 1,
               "OT": false
-            },
-            "game5": {
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
               "T1": 4,
               "T2": 2,
               "OT": false
-            },
-            "game6": {
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
               "T1": false,
               "T2": false,
               "OT": false
-            },
-            "game7": {
-              "T1": 3,
-              "T2": 4,
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }
-        ]
+        ],
+        "summary": "okthenos get the brooms out for the sweep over the mexos.  Every game was close but the mexos just missed the mark."
       }
     ],
     "match5": [
@@ -521,7 +603,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The DTos finally lose a series as the okthenos win a back and forth 6-5 game in the final match of the night."
       },
       {
         "played": true,
@@ -531,43 +613,63 @@
         "Team2": "mexos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 8,
               "T2": 2,
               "OT": false
-            },
-            "game2": {
+            }
+          },
+          {
+            "match": "game2",
+            "game": {
               "T1": 4,
               "T2": 2,
               "OT": false
-            },
-            "game3": {
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
               "T1": 8,
               "T2": 3,
               "OT": false
-            },
-            "game4": {
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
               "T1": 10,
-              "T2": 4,
-              "OT": false
-            },
-            "game5": {
-              "T1": 10,
-              "T2": 0,
-              "OT": false
-            },
-            "game6": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            },
-            "game7": {
-              "T1": 3,
               "T2": 4,
               "OT": false
             }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 10,
+              "T2": 0,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
           }
-        ]
+        ],
+        "summary": "Struggles continue for the mexos as they get swept for a 2nd straight week.  Playoff chances are dire."
       }
     ],
     "match6": [
@@ -635,7 +737,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "A game 3 blowout by Warrios looked like they would take the series and the 2nd seed but thrilling victories in games 4 and 5 have clinched okthenos the 2 seed."
       },
       {
         "played": true,
@@ -645,43 +747,63 @@
         "Team2": "mexos",
         "results": [
           {
-            "game1": {
+            "match": "game1",
+            "game": {
               "T1": 6,
-              "T2": 4,
-              "OT": false
-            },
-            "game2": {
-              "T1": 5,
-              "T2": 6,
-              "OT": true
-            },
-            "game3": {
-              "T1": 6,
-              "T2": 3,
-              "OT": false
-            },
-            "game4": {
-              "T1": 11,
-              "T2": 5,
-              "OT": false
-            },
-            "game5": {
-              "T1": 7,
-              "T2": 1,
-              "OT": false
-            },
-            "game6": {
-              "T1": false,
-              "T2": false,
-              "OT": false
-            },
-            "game7": {
-              "T1": 3,
               "T2": 4,
               "OT": false
             }
+          },
+          {
+            "match": "game2",
+            "game": {
+              "T1": 5,
+              "T2": 6,
+              "OT": true
+            }
+          },
+          {
+            "match": "game3",
+            "game": {
+              "T1": 6,
+              "T2": 3,
+              "OT": false
+            }
+          },
+          {
+            "match": "game4",
+            "game": {
+              "T1": 11,
+              "T2": 5,
+              "OT": false
+            }
+          },
+          {
+            "match": "game5",
+            "game": {
+              "T1": 7,
+              "T2": 1,
+              "OT": false
+            }
+          },
+          {
+            "match": "game6",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
+          },
+          {
+            "match": "game7",
+            "game": {
+              "T1": false,
+              "T2": false,
+              "OT": false
+            }
           }
-        ]
+        ],
+        "summary": "Playing only for the upset the mexos do manage to take 1 game off top seeded DTos, but it is not enough to change either teams seed going into playoffs."
       }
     ],
     "semifinals": [
@@ -749,7 +871,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "The Warriors managed to equalize the series but a crushing loss in game 3 demoralized the team.  Game 4 was all okthenos as they took the series and advance to the finals"
       }
     ],
     "finals": [
@@ -817,7 +939,7 @@
             }
           }
         ],
-        "summary": "After dropping game 1, the DTos take 3 in a row to win the week, with a commanding win in game 4"
+        "summary": "Clutch plays by DTos in game 1 would set the series tone.  okthenos fought back but in the end DTos are OTI Season 4 champions winning 4-2"
       }
     ]
   }

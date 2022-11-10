@@ -1,71 +1,83 @@
 import React from "react";
 import styled from "styled-components";
+import { v4 as uuidv4 } from "uuid";
+
 import OTI from "../json/schedule/OTIScores.json";
 import OTIA from "../json/schedule/OTIAScores.json";
 import OTIEU from "../json/schedule/OTIEUScores.json";
+import OTIEGG from "../json/schedule/OTIEGGScores.json";
 
 const ScoreWeek = (props) => {
-  console.log(props.league);
   let Results = false;
   if (props.league === "OTI") Results = OTI;
   else if (props.league === "OTIA") Results = OTIA;
   else if (props.league === "OTIEU") Results = OTIEU;
+  else if (props.league === "OTIEGG") Results = OTIEGG;
+
+  // console.log(Results[0][`${props.match}`]);
 
   return (
-    <AllScores>
+    <AllScores key={uuidv4()}>
       {Results &&
         Results[0][`${props.match}`][0].played &&
-        Results[0][`${props.match}`].map((game) => {
+        Results[0][`${props.match}`].map((game, indexs) => {
           return (
-            <Match key={game.Team1}>
-              <Teams>
-                <span>{`${game.Team1}`}</span>
-                <span>{`${game.Team2}`}</span>
+            <Match key={uuidv4()}>
+              <Teams key={uuidv4()}>
+                <span key={uuidv4()}>{`${game.Team1}`}</span>
+                <span key={uuidv4()}>{`${game.Team2}`}</span>
               </Teams>
-              <Scores>
-                <Games>
-                  {Results[0][`${props.match}`][0].results.map(
+              <Scores key={uuidv4()}>
+                <Games key={uuidv4()}>
+                  {Results[0][`${props.match}`][indexs].results.map(
                     (score, index) => {
                       if (score.game.T1 !== false) {
-                        return <span>{`G${index + 1}`} </span>;
-                      } else return "";
+                        return <span key={index}>{`G${index + 1}`} </span>;
+                      } else
+                        return <React.Fragment key={index}></React.Fragment>;
                     }
                   )}
                 </Games>
-                <div>
-                  {Results[0][`${props.match}`][0].results.map((score) => {
-                    if (score.game.T1 !== false)
-                      return (
-                        <span
-                          className={`${
-                            score.game.T1 > score.game.T2 ? "Bold" : ""
-                          }`}
-                          key={score.match}
-                        >
-                          {score.game.T1}{" "}
-                        </span>
-                      );
-                    else return "";
-                  })}
+                <div key={uuidv4()}>
+                  {Results[0][`${props.match}`][indexs].results.map(
+                    (score, index) => {
+                      if (score.game.T1 !== false)
+                        return (
+                          <span
+                            className={`${
+                              score.game.T1 > score.game.T2 ? "Bold" : ""
+                            }`}
+                            key={uuidv4()}
+                          >
+                            {score.game.T1}{" "}
+                          </span>
+                        );
+                      else
+                        return <React.Fragment key={uuidv4()}></React.Fragment>;
+                    }
+                  )}
                 </div>
-                <div>
-                  {Results[0][`${props.match}`][0].results.map((score) => {
-                    if (score.game.T1 !== false)
-                      return (
-                        <span
-                          className={`${
-                            score.game.T2 > score.game.T1 ? "Bold" : ""
-                          }`}
-                          key={score.match}
-                        >
-                          {score.game.T2}{" "}
-                        </span>
-                      );
-                    else return "";
-                  })}
+                <div key={uuidv4()}>
+                  {Results[0][`${props.match}`][indexs].results.map(
+                    (score, index) => {
+                      if (score.game.T1 !== false)
+                        return (
+                          <span
+                            className={`${
+                              score.game.T2 > score.game.T1 ? "Bold" : ""
+                            }`}
+                            key={uuidv4()}
+                          >
+                            {score.game.T2}{" "}
+                          </span>
+                        );
+                      else
+                        return <React.Fragment key={uuidv4()}></React.Fragment>;
+                    }
+                  )}
                 </div>
               </Scores>
-              <Summary>{`${game.summary}`}</Summary>
+              <Summary key={game.summary}>{`${game.summary}`}</Summary>
             </Match>
           );
         })}

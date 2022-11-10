@@ -6,6 +6,8 @@ import { Route, useRouteMatch, Switch, NavLink } from "react-router-dom";
 import OTIGameDays from "../json/schedule/OTIgamedays.json";
 import OTIAGameDays from "../json/schedule/OTIAgamedays.json";
 import OTIEUGameDays from "../json/schedule/OTIEUgamedays.json";
+import OTIEGGGameDays from "../json/schedule/OTIEGGgamedays.json";
+
 import ScoreWeek from "../ScoresComponents/ScoreWeek.js";
 
 // import { useEffect, useContext } from "react";
@@ -19,8 +21,10 @@ const Scores = (props) => {
   if (props.league === "OTI") Gamedays = OTIGameDays;
   else if (props.league === "OTIA") Gamedays = OTIAGameDays;
   else if (props.league === "OTIEU") Gamedays = OTIEUGameDays;
+  else if (props.league === "OTIEGG") Gamedays = OTIEGGGameDays;
 
   const { url } = useRouteMatch();
+
   return (
     <>
       <SectionStyle>
