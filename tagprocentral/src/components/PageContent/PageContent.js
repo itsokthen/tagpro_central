@@ -29,11 +29,11 @@ const PageContent = (props) => {
           <Route path={`${path}/Scores`}>
             <Scores league={`${props.league}`} color={`${props.color}`} />
           </Route>
-          <Route path={`${path}/Schedule`}>
+          {/* <Route path={`${path}/Schedule`}>
             <Schedule league={`${props.league}`} />
-          </Route>
+          </Route> */}
           <Route path={`${path}/Standings`}>
-            <Standings league={`${props.league}`} />
+            <Standings league={`${props.league}`} color={`${props.color}`} />
           </Route>
           <Route path={`${path}/Stats`}>
             <Stats league={`${props.league}`} />

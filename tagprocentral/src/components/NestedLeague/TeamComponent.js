@@ -4,7 +4,7 @@ import tagpro from "../../images/tagproPUP.png";
 import rolling from "../../images/rollingPUP.png";
 import jukejuice from "../../images/jukejuicePUP.png";
 import topspeed from "../../images/topspeedPUP.png";
-import tagproBomb from "../../images/crown_1.png";
+import tagproBomb from "../../images/tagproBomb.png";
 import tagproBallBlue from "../../images/tagproBallBlue.png";
 import tagproBallRed from "../../images/tagproBallRed.png";
 
