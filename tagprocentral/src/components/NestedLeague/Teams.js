@@ -45,14 +45,17 @@ const Teams = (props) => {
 };
 
 const Teamsdiv = styled.div`
+  width: 60vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 80%;
-  min-width: 80vw;
+  min-width: 60vw;
   margin: 2vh 0;
   background-color: white;
   border-radius: 20px;
   padding: 10px;
+  @media (max-width: 850px) {
+    width: 90vw;
+  }
 `;
 export default Teams;

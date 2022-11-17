@@ -7,11 +7,22 @@ import topspeed from "../../images/topspeedPUP.png";
 import tagproBomb from "../../images/tagproBomb.png";
 import tagproBallBlue from "../../images/tagproBallBlue.png";
 import tagproBallRed from "../../images/tagproBallRed.png";
+import IMAGES from "../../logos/index.js";
 
 const TeamComponent = (props) => {
   return (
     <Team bgcolor={props.bgcolor}>
-      <Teamname bgcolor={props.bgcolor}>{props.teamname}</Teamname>
+      <Teamname bgcolor={props.bgcolor}>
+        <span> {props.teamname}</span>{" "}
+        <img
+          src={
+            IMAGES[
+              JSON.parse(JSON.stringify(props.teamname)).replace(/\s/g, "")
+            ]
+          }
+          alt="."
+        ></img>
+      </Teamname>
       <PlayerList>
         <Title>
           <Player>Player</Player>
@@ -79,6 +90,13 @@ const Team = styled.div`
   overflow: hidden;
 `;
 const Teamname = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    max-height: 40px;
+    max-width: 40px;
+  }
   padding: 0 15px;
   border: 2px solid;
   border-bottom: none;

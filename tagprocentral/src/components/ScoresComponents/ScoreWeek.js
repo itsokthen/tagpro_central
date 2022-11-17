@@ -7,13 +7,14 @@ import OTIA from "../json/schedule/OTIAScores.json";
 import OTIEU from "../json/schedule/OTIEUScores.json";
 import OTIEGG from "../json/schedule/OTIEGGScores.json";
 
+import IMAGES from "../../logos/index.js";
+
 const ScoreWeek = (props) => {
   let Results = false;
   if (props.league === "OTI") Results = OTI;
   else if (props.league === "OTIA") Results = OTIA;
   else if (props.league === "OTIEU") Results = OTIEU;
   else if (props.league === "OTIEGG") Results = OTIEGG;
-
   // console.log(Results[0][`${props.match}`]);
 
   return (
@@ -24,8 +25,35 @@ const ScoreWeek = (props) => {
           return (
             <Match key={uuidv4()}>
               <Teams key={uuidv4()}>
-                <span key={uuidv4()}>{`${game.Team1}`}</span>
-                <span key={uuidv4()}>{`${game.Team2}`}</span>
+                <span></span>
+                <span key={uuidv4()}>
+                  <img
+                    src={
+                      IMAGES[
+                        JSON.parse(JSON.stringify(game.Team1)).replace(
+                          /\s/g,
+                          ""
+                        )
+                      ]
+                    }
+                    alt="."
+                  ></img>
+                  {`${game.Team1}`}
+                </span>
+                <span key={uuidv4()}>
+                  <img
+                    src={
+                      IMAGES[
+                        JSON.parse(JSON.stringify(game.Team2)).replace(
+                          /\s/g,
+                          ""
+                        )
+                      ]
+                    }
+                    alt="."
+                  ></img>
+                  {`${game.Team2}`}
+                </span>
               </Teams>
               <Scores key={uuidv4()}>
                 <Games key={uuidv4()}>
@@ -98,6 +126,7 @@ const Match = styled.div`
   min-height: 20vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 5vw;
   border-bottom: 1px solid black;
   flex-wrap: wrap;
@@ -107,31 +136,44 @@ const Teams = styled.div`
   display: flex;
   flex-direction: column;
   width: 20%;
-  min-width: 100px;
-  span {
+  min-width: 120px;
+  padding-top: 45px;
+  font-weight: bold;
+  span:last-child {
     margin: 10px 0;
-    font-weight: bold;
+  }
+  img {
+    max-width: 30px;
+    vertical-align: middle;
+    max-height: 30px;
+    margin-right: 10px;
   }
 `;
 const Scores = styled.div`
-  width: 30%;
-  min-width: 150px;
+  width: 20%;
   display: flex;
   flex-direction: column;
   margin-right: 3vw;
+  padding-top: 20px;
+  div:first-child {
+    margin-bottom: 20px;
+  }
   div {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
     span {
-      min-width: 20px;
+      min-width: 28px;
     }
+  }
+  @media (max-width: 550px) {
+    width: auto;
   }
 `;
 
 const Games = styled.div`
   display: flex;
   font-weight: bold;
-  justify-content: space-around;
 `;
 const Summary = styled.div`
   width: 40%;

@@ -5,7 +5,7 @@ import { useLayoutEffect } from "react";
 
 //import NestedNav from "../Navbar/NestedNav";
 import Scores from "../NestedLeague/Scores";
-import Schedule from "../NestedLeague/Schedule";
+//import Schedule from "../NestedLeague/Schedule";
 import Standings from "../NestedLeague/Standings";
 import Stats from "../NestedLeague/Stats";
 import Teams from "../NestedLeague/Teams";
@@ -36,10 +36,10 @@ const PageContent = (props) => {
             <Standings league={`${props.league}`} color={`${props.color}`} />
           </Route>
           <Route path={`${path}/Stats`}>
-            <Stats league={`${props.league}`} />
+            <Stats league={`${props.league}`} color={`${props.color}`} />
           </Route>
           <Route path={`${path}/Teams`}>
-            <Teams league={`${props.league}`} />
+            <Teams league={`${props.league}`} color={`${props.color}`} />
           </Route>
         </Switch>
       </LeagueInfoStyle>
@@ -52,7 +52,7 @@ const PageDetails = styled.div`
   //margin-bottom: 15px;
   display: flex;
   justify-content: center;
-  background-color: #d9dbde//#edeef0;
+  background-color: #d9dbde; //#edeef0;
   //color: ${(props) => props.color};
 `;
 
@@ -63,6 +63,13 @@ const PageDetails = styled.div`
 
 const LeagueInfoStyle = styled.div`
   max-width: 80vw;
+  margin-left: 20%;
+  margin-right: 20%;
+  @media (max-width: 850px) {
+    max-width: 90vw;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 `;
 
 export default PageContent;

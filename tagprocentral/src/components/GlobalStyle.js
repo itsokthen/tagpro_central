@@ -24,6 +24,25 @@ p {
 .DTos {
   background-color: red;
 }
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    padding: 8px;
+    outline: 0;
+    border-spacing: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 `;
 
 export default GlobalStyle;

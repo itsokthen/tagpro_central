@@ -261,8 +261,8 @@
           {
             "match": "game7",
             "game": {
-              "T1": 3,
-              "T2": 4,
+              "T1": false,
+              "T2": false,
               "OT": false
             }
           }

@@ -34,7 +34,7 @@ export default function Standings() {
   }, []);
 
   return (
-    <TableContainer  sx={({ maxWidth: 700 }, {})}>
+    <TableContainer sx={({ maxWidth: 700 }, {})}>
       <Table sx={{ maxWidth: 650 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>

@@ -12,7 +12,7 @@ const Navbar = (props) => {
     <>
       <Nav color={props.color.color}>
         <ul>
-          <LinkStyle to={`${url}/Scores`}>Scores</LinkStyle>
+          <LinkStyle to={`${url}/Scores/match1`}>Scores</LinkStyle>
           {/* <LinkStyle to={`${url}/Schedule`}>Schedule</LinkStyle> */}
           <LinkStyle to={`${url}/Standings`}>Standings</LinkStyle>
           <LinkStyle to={`${url}/Stats`}>Stats</LinkStyle>
@@ -30,14 +30,17 @@ const Nav = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 0 0 0 19.5%;
+  padding: 0 0 0 20%;
   overflow: hidden;
   //width: 100%;
-  border-bottom: 1px solid black;
   box-shadow: 0px 5px 5px -5px #111;
   font-weight: 700;
   font-size: 1.1rem;
   background-color: ${(props) => props.color};
+  @media (max-width: 850px) {
+    padding: 0;
+    margin-left: 10px;
+  }
 
   a {
     text-decoration: none;
@@ -45,7 +48,7 @@ const Nav = styled.div`
   }
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
   }
@@ -66,6 +69,15 @@ const LinkStyle = styled(NavLink)`
   }
   &:hover {
     border: 2px solid white;
+  }
+  @media (max-width: 850px) {
+    width: auto;
+    margin-right: 20px;
+  }
+  @media (max-width: 350px) {
+    width: auto;
+    margin-right: 10px;
+    font-size: 80%;
   }
 `;
 

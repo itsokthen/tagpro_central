@@ -79,13 +79,16 @@ const Scores = (props) => {
 };
 
 const SectionStyle = styled.section`
-  min-width: 80vw;
   display: flex;
   flex-direction: column;
   background-color: white;
   margin-top: 2vh;
   border-radius: 20px;
   margin-bottom: 3vh;
+  width: 60vw;
+  @media (max-width: 850px) {
+    width: 90vw;
+  }
 `;
 
 const SectionHeader = styled.section`

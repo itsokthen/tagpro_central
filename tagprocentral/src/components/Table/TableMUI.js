@@ -19,18 +19,16 @@ export default function TableMUI(props) {
       try {
         const response = await SeasonStats.get("/");
         setGames(response.data.data.series);
-        console.log(`hiiiiiiiiiiiiiiii ${JSON.stringify(games[0])}`);
       } catch (err) {}
     };
 
     fetchData();
-    console.log(`sssss ${games}`);
   }, []);
 
   return (
     <>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <Table sx={{ minWidth: 850 }} aria-label="simple table">
           <TableHead>
             <TableRow>
               <TableCell>Player</TableCell>

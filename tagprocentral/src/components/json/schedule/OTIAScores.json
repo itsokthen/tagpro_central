@@ -406,7 +406,7 @@
         "played": true,
         "week": 1,
         "date": "July 18, 2022",
-        "Team1": "Hdos",
+        "Team1": "HDos",
         "Team2": "d4nkos",
         "results": [
           {
@@ -738,7 +738,7 @@
         "played": true,
         "week": 2,
         "date": "July 18, 2022",
-        "Team1": "Hdos",
+        "Team1": "HDos",
         "Team2": "Tyos",
         "results": [
           {
@@ -873,7 +873,7 @@
         "week": 1,
         "date": "July 18, 2022",
         "Team1": "Boos",
-        "Team2": "Hdos",
+        "Team2": "HDos",
         "results": [
           {
             "match": "game1",
